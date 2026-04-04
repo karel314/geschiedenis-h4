@@ -147,13 +147,13 @@
               "opties": [
                 "Werkloosheid en armoede groeiden in Nederland",
                 "Nederland had een economische voorsprong (Gouden Eeuw)",
-                "Engeland en Schotland werden samen Groot-Brittannie (1707)",
+                "Engeland en Schotland werden samen Groot-Brittannie",
                 "Nederland verloor zijn economische voorsprong"
               ],
               "juiste_volgorde": [
                 "Nederland had een economische voorsprong (Gouden Eeuw)",
                 "Nederland verloor zijn economische voorsprong",
-                "Engeland en Schotland werden samen Groot-Brittannie (1707)",
+                "Engeland en Schotland werden samen Groot-Brittannie",
                 "Werkloosheid en armoede groeiden in Nederland"
               ],
               "uitleg": "Nederland had eerst een economische voorsprong in de Gouden Eeuw (17e eeuw). Omstreeks 1700 verloor Nederland die voorsprong. In 1707 werden Engeland en Schotland Groot-Brittannie. In de loop van de 18e eeuw groeiden werkloosheid en armoede."
@@ -458,13 +458,13 @@
               "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
               "opties": [
                 "Een dominee voorspelt de ondergang van de wereld",
-                "Diderot en d'Alembert beginnen aan de Encyclopedie (1751)",
+                "Diderot en d'Alembert beginnen aan de Encyclopedie",
                 "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen",
                 "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen"
               ],
               "juiste_volgorde": [
                 "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen",
-                "Diderot en d'Alembert beginnen aan de Encyclopedie (1751)",
+                "Diderot en d'Alembert beginnen aan de Encyclopedie",
                 "Een dominee voorspelt de ondergang van de wereld",
                 "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen"
               ],
@@ -767,8 +767,8 @@
               "type": "volgorde",
               "vraag": "Zet de gebeurtenissen in de aanloop naar de Franse Revolutie in de juiste volgorde.",
               "opties": [
-                "Lodewijk XVI kan de rente niet meer betalen (1788)",
-                "De Staten-Generaal komen bijeen in Versailles (mei 1789)",
+                "Lodewijk XVI kan de rente niet meer betalen",
+                "De Staten-Generaal komen bijeen in Versailles",
                 "De derde stand roept zichzelf uit tot Nationale Vergadering",
                 "De Eed op de Kaatsbaan: pas uit elkaar als er een grondwet is"
               ],
@@ -843,7 +843,7 @@
               "vraag": "Zet de gebeurtenissen rond het begin van de Franse Revolutie in de juiste volgorde.",
               "opties": [
                 "De Eed op de Kaatsbaan",
-                "De bestorming van de Bastille (14 juli 1789)",
+                "De bestorming van de Bastille",
                 "Opstand slaat over naar het platteland",
                 "Boeren vermoorden edelen en geestelijken"
               ],
@@ -926,9 +926,9 @@
               "vraag": "Zet de politieke veranderingen in de juiste chronologische volgorde.",
               "opties": [
                 "Standsverschillen worden afgeschaft",
-                "Grondwet met constitutionele monarchie (1791)",
-                "Oorlog met Oostenrijk en Pruisen (1792)",
-                "De republiek wordt uitgeroepen (1792)"
+                "Grondwet met constitutionele monarchie",
+                "Oorlog met Oostenrijk en Pruisen",
+                "De republiek wordt uitgeroepen"
               ],
               "juiste_volgorde": [
                 0,
@@ -1001,11 +1001,11 @@
               "type": "volgorde",
               "vraag": "Zet de laatste fase van de Franse Revolutie in de juiste volgorde.",
               "opties": [
-                "Lodewijk XVI wordt onthoofd (1793)",
+                "Lodewijk XVI wordt onthoofd",
                 "Robespierre regeert met terreur",
-                "Robespierre wordt zelf onthoofd (1794)",
-                "Gematigde regeringen besturen Frankrijk (1794-1799)",
-                "Napoleon pleegt een staatsgreep (1799)"
+                "Robespierre wordt zelf onthoofd",
+                "Gematigde regeringen besturen Frankrijk",
+                "Napoleon pleegt een staatsgreep"
               ],
               "juiste_volgorde": [
                 0,
@@ -2631,5 +2631,12 @@
         }
       ]
     }
-  ]
+  ],
+  "weergave_hints": {
+    "volgorde": {
+      "opties_label": "letters",
+      "positie_label": "cijfers",
+      "antwoord_formaat": "1:B, 2:D, 3:A, ..."
+    }
+  }
 }
