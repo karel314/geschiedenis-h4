@@ -1,0 +1,2635 @@
+{
+  "vak": "Geschiedenis",
+  "hoofdstuk": "4 - Tijd van pruiken en revoluties",
+  "scope": "4.1 + 4.3 (tot Napoleon)",
+  "totaal_vragen": 175,
+  "leerdoelen": [
+    {
+      "leerdoel_id": 1,
+      "leerdoel_titel": "De Pruikentijd",
+      "paragraaf": "4.1",
+      "uitleg_tekst": "De 18e eeuw wordt de Pruikentijd genoemd omdat het dragen van pruiken in deze periode een belangrijke mode was. Lodewijk XIV begon met het dragen van een grote pruik om zijn kaalheid te verbergen. Aanzienlijke mannen volgden zijn voorbeeld om te laten zien dat ze rijk en machtig waren. De Nederlandse economie ging in deze eeuw achteruit: de textielnijverheid verdween, de VOC maakte minder winst en de werkloosheid groeide. Omstreeks 1700 verloor Nederland zijn economische voorsprong aan Groot-Brittannie.",
+      "subdoelen": [
+        {
+          "subdoel_id": "1.1",
+          "subdoel_titel": "Waarom heet de 18e eeuw de Pruikentijd",
+          "vragen": [
+            {
+              "id": 1,
+              "type": "multiple_choice",
+              "vraag": "Waarom begon Lodewijk XIV met het dragen van een grote pruik?",
+              "opties": [
+                "Om te laten zien dat hij de machtigste koning van Europa was",
+                "Omdat hij kaal begon te worden en dat wilde verbergen",
+                "Omdat de paus hem dat had opgedragen",
+                "Om zich te onderscheiden van de adel"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XIV droeg een enorme pruik om te verbergen dat hij kaal werd. Zijn voorbeeld werd daarna door velen gevolgd."
+            },
+            {
+              "id": 2,
+              "type": "multiple_choice",
+              "vraag": "Welk tijdvak hoort bij de tijd van pruiken en revoluties (1700-1800)?",
+              "opties": [
+                "Tijdvak 7",
+                "Tijdvak 8",
+                "Tijdvak 6",
+                "Tijdvak 5"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De 18e eeuw (1700-1800) is tijdvak 7: de tijd van pruiken en revoluties."
+            },
+            {
+              "id": 3,
+              "type": "invullen",
+              "vraag": "Vul in: Aanzienlijke mannen lieten met het dragen van pruiken zien dat ze ___ en ___ waren.",
+              "juiste_antwoord": "rijk en machtig",
+              "uitleg": "Het dragen van pruiken was een statussymbool. Aanzienlijke mannen lieten hiermee zien dat ze rijk en machtig waren."
+            },
+            {
+              "id": 4,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over pruiken in de 18e eeuw zijn juist?",
+              "opties": [
+                "Lodewijk XIV begon met de pruikenmode",
+                "Aanzienlijke vrouwen droegen meestal geen pruik",
+                "Vrouwen lieten haarstukjes verwerken in hun opgestoken kapsel",
+                "Iedereen in Europa droeg een pruik, arm of rijk",
+                "Pruiken waren een teken van armoede"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Lodewijk XIV begon met de mode, aanzienlijke vrouwen droegen meestal geen hele pruik maar lieten haarstukjes verwerken in hun kapsel. Pruiken waren juist een teken van rijkdom, niet van armoede."
+            },
+            {
+              "id": 5,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
+              "opties": [
+                "Velen volgen het voorbeeld van Lodewijk XIV",
+                "Aanzienlijke mannen tonen hun rijkdom met pruiken",
+                "De 18e eeuw staat bekend als de Pruikentijd",
+                "Lodewijk XIV draagt een enorme pruik om zijn kaalheid te verbergen"
+              ],
+              "juiste_volgorde": [
+                "Lodewijk XIV draagt een enorme pruik om zijn kaalheid te verbergen",
+                "Velen volgen het voorbeeld van Lodewijk XIV",
+                "Aanzienlijke mannen tonen hun rijkdom met pruiken",
+                "De 18e eeuw staat bekend als de Pruikentijd"
+              ],
+              "uitleg": "Eerst begon Lodewijk XIV zelf met het dragen van een pruik, daarna volgden anderen zijn voorbeeld, waardoor het een statussymbool werd en de hele eeuw ernaar vernoemd werd."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "1.2",
+          "subdoel_titel": "De Nederlandse economie in de 18e eeuw",
+          "vragen": [
+            {
+              "id": 6,
+              "type": "multiple_choice",
+              "vraag": "Aan welk land verloor Nederland omstreeks 1700 zijn economische voorsprong?",
+              "opties": [
+                "Frankrijk",
+                "Het Duitse Rijk",
+                "Spanje",
+                "Engeland"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Omstreeks 1700 verloor Nederland zijn economische voorsprong aan Engeland (dat vanaf 1707 samen met Schotland Groot-Brittannie vormde)."
+            },
+            {
+              "id": 7,
+              "type": "multiple_choice",
+              "vraag": "Wat deden rijke Nederlandse families in de 18e eeuw met hun geld?",
+              "opties": [
+                "Ze investeerden het in de textielnijverheid",
+                "Ze gaven het aan de VOC",
+                "Ze leenden het uit tegen rente",
+                "Ze stuurden het naar Engeland"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een kleine groep rijke families leende geld uit tegen rente. Amsterdam was in die tijd het financieel centrum van Europa."
+            },
+            {
+              "id": 8,
+              "type": "invullen",
+              "vraag": "Vul in: Rijke handelaren en regenten bouwden buitenhuizen langs de ___.",
+              "juiste_antwoord": "Vecht",
+              "uitleg": "Rijke Nederlanders lieten hun welvaart zien door buitenhuizen te bouwen langs de rivier de Vecht."
+            },
+            {
+              "id": 9,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke ontwikkelingen hoorden bij de achteruitgang van de Nederlandse economie in de 18e eeuw?",
+              "opties": [
+                "De textielnijverheid in Leiden en Haarlem verdween",
+                "De VOC maakte minder winst",
+                "De werkloosheid en armoede groeiden",
+                "Amsterdam verloor zijn positie als financieel centrum",
+                "Engeland en Schotland werden samen Groot-Brittannie"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De textielnijverheid verdween, de VOC maakte minder winst en werkloosheid en armoede groeiden. Amsterdam bleef juist wel het financieel centrum van Europa. De vorming van Groot-Brittannie (1707) was geen teken van Nederlandse achteruitgang, maar van Britse eenwording."
+            },
+            {
+              "id": 10,
+              "type": "volgorde",
+              "vraag": "Zet de volgende ontwikkelingen in de juiste tijdsvolgorde.",
+              "opties": [
+                "Werkloosheid en armoede groeiden in Nederland",
+                "Nederland had een economische voorsprong (Gouden Eeuw)",
+                "Engeland en Schotland werden samen Groot-Brittannie (1707)",
+                "Nederland verloor zijn economische voorsprong"
+              ],
+              "juiste_volgorde": [
+                "Nederland had een economische voorsprong (Gouden Eeuw)",
+                "Nederland verloor zijn economische voorsprong",
+                "Engeland en Schotland werden samen Groot-Brittannie (1707)",
+                "Werkloosheid en armoede groeiden in Nederland"
+              ],
+              "uitleg": "Nederland had eerst een economische voorsprong in de Gouden Eeuw (17e eeuw). Omstreeks 1700 verloor Nederland die voorsprong. In 1707 werden Engeland en Schotland Groot-Brittannie. In de loop van de 18e eeuw groeiden werkloosheid en armoede."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 2,
+      "leerdoel_titel": "De Franse standenmaatschappij",
+      "paragraaf": "4.1",
+      "uitleg_tekst": "In Frankrijk was de bevolking verdeeld in drie standen met elk eigen rechten en plichten. De eerste stand (geestelijkheid, 1%) en de tweede stand (adel, 1,5%) bezaten samen 30% van het land en betaalden weinig of geen belasting. De derde stand (boeren en burgers, 97,5%) bezat 70% van het land maar moest alle belasting betalen. Boeren moesten ook pacht betalen en de molen of wijnpers van hun heer gebruiken. De indirecte belasting op producten maakte voedsel duur, terwijl de lonen achterbleven bij de prijsstijgingen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "2.1",
+          "subdoel_titel": "De drie standen en hun kenmerken",
+          "vragen": [
+            {
+              "id": 11,
+              "type": "multiple_choice",
+              "vraag": "Welk percentage van de Franse bevolking behoorde tot de derde stand?",
+              "opties": [
+                "70%",
+                "97,5%",
+                "1,5%",
+                "20%"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De derde stand (boeren en burgers) vormde 97,5% van de bevolking. De 70% verwijst naar het percentage land dat de derde stand bezat, 1,5% naar de adel en 20% naar het landbezit van de adel."
+            },
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "vraag": "Wie behoorden tot de eerste stand in de Franse standenmaatschappij?",
+              "opties": [
+                "De geestelijkheid",
+                "De rijke burgers",
+                "De adel",
+                "De boeren"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De eerste stand bestond uit de geestelijkheid. De adel vormde de tweede stand. Boeren en burgers hoorden bij de derde stand."
+            },
+            {
+              "id": 13,
+              "type": "invullen",
+              "vraag": "Vul in: In de Franse standenmaatschappij bestond de tweede stand uit de ___.",
+              "juiste_antwoord": "adel",
+              "uitleg": "De tweede stand bestond uit de adel. Zij vormden 1,5% van de bevolking en bezaten 20% van het land."
+            },
+            {
+              "id": 14,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke privileges hadden de eerste en tweede stand in Frankrijk?",
+              "opties": [
+                "Ze betaalden weinig of geen belasting",
+                "Ze bezaten samen 30% van het land",
+                "Alleen edelen konden legerofficier worden",
+                "Ze mochten als enigen handel drijven",
+                "Edelen konden overheidsbanen krijgen"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
+              "uitleg": "De eerste en tweede stand betaalden weinig of geen belasting, en alleen edelen konden legerofficier worden of overheidsbanen krijgen. Het bezitten van land was geen privilege op zich, en handel was niet voorbehouden aan de eerste twee standen."
+            },
+            {
+              "id": 15,
+              "type": "volgorde",
+              "vraag": "Zet de drie standen in volgorde van klein naar groot (percentage van de bevolking).",
+              "opties": [
+                "Derde stand (boeren en burgers)",
+                "Tweede stand (adel)",
+                "Eerste stand (geestelijkheid)"
+              ],
+              "juiste_volgorde": [
+                "Eerste stand (geestelijkheid)",
+                "Tweede stand (adel)",
+                "Derde stand (boeren en burgers)"
+              ],
+              "uitleg": "De eerste stand (geestelijkheid) was het kleinst met 1% van de bevolking. De tweede stand (adel) was iets groter met 1,5%. De derde stand (boeren en burgers) was verreweg het grootst met 97,5%."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "2.2",
+          "subdoel_titel": "Belasting en ongelijkheid",
+          "vragen": [
+            {
+              "id": 16,
+              "type": "multiple_choice",
+              "vraag": "Wat waren 'heerlijke rechten' in de Franse standenmaatschappij?",
+              "opties": [
+                "Het recht van burgers om vrij handel te drijven",
+                "Rechten waardoor boeren pacht moesten betalen en de molen of wijnpers van hun heer moesten gebruiken",
+                "Het recht van de koning om nieuwe wetten te maken",
+                "Het recht van de geestelijkheid om belasting te heffen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Heerlijke rechten betekenden dat boeren pacht moesten betalen aan hun heer en verplicht waren om tegen betaling de molen of wijnpers van hun heer te gebruiken."
+            },
+            {
+              "id": 17,
+              "type": "multiple_choice",
+              "vraag": "Hoeveel van alle staatsinkomsten kwam uit indirecte belasting?",
+              "opties": [
+                "Alles",
+                "De helft",
+                "Een kwart",
+                "Drie kwart"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Drie kwart van alle staatsinkomsten kwam uit indirecte belasting. Dit was belasting die betaald werd bij de aankoop van producten, waardoor voedsel duur was."
+            },
+            {
+              "id": 18,
+              "type": "invullen",
+              "vraag": "Vul in: Indirecte belasting werd betaald bij de aankoop van ___.",
+              "juiste_antwoord": "producten",
+              "uitleg": "Indirecte belasting werd betaald bij de aankoop van producten. Dit maakte onder andere voedsel duur voor de gewone bevolking."
+            },
+            {
+              "id": 19,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over belasting en ongelijkheid in Frankrijk zijn juist?",
+              "opties": [
+                "De derde stand betaalde alle belasting",
+                "Lonen bleven achter bij prijsstijgingen",
+                "Indirecte belasting maakte voedsel duur",
+                "De adel betaalde de meeste belasting",
+                "Burgers in steden hadden meer rechten dan edelen"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De derde stand betaalde alle belasting, lonen bleven achter bij prijsstijgingen en indirecte belasting maakte voedsel duur. De adel betaalde juist bijna geen belasting en burgers hadden minder rechten dan edelen, ook al werden sommige burgers rijk."
+            },
+            {
+              "id": 20,
+              "type": "volgorde",
+              "vraag": "Zet de drie standen in volgorde van wie het meeste land bezat naar het minste land.",
+              "opties": [
+                "Eerste stand (geestelijkheid) - 10% van het land",
+                "Tweede stand (adel) - 20% van het land",
+                "Derde stand (boeren en burgers) - 70% van het land"
+              ],
+              "juiste_volgorde": [
+                "Derde stand (boeren en burgers) - 70% van het land",
+                "Tweede stand (adel) - 20% van het land",
+                "Eerste stand (geestelijkheid) - 10% van het land"
+              ],
+              "uitleg": "De derde stand bezat het meeste land (70%), gevolgd door de adel (20%) en de geestelijkheid (10%). Ondanks hun grote landbezit moest de derde stand alle belasting betalen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 3,
+      "leerdoel_titel": "De Verlichting",
+      "paragraaf": "4.1",
+      "uitleg_tekst": "De Verlichting was een 18e-eeuwse beweging van mensen die het gebruik van het verstand (de rede) wilden bevorderen. Na de wetenschappelijke revolutie van de 17e eeuw ontstond het idee dat mensen alles konden begrijpen door rationeel te denken. De filosoof Immanuel Kant sprak over het overwinnen van de 'duisternis van de onwetendheid' door het 'licht van het verstand'. Kennis was heel belangrijk: Diderot en d'Alembert brachten vanaf 1751 alle kennis bijeen in de Encyclopedie, een werk van 28 boeken met 72.000 artikelen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "3.1",
+          "subdoel_titel": "Wat is de Verlichting en hoe ontstond deze",
+          "vragen": [
+            {
+              "id": 21,
+              "type": "multiple_choice",
+              "vraag": "Wat wordt bedoeld met 'de rede' in de tijd van de Verlichting?",
+              "opties": [
+                "Het geloof in God",
+                "De reden waarom de Franse Revolutie uitbrak",
+                "Het verstand, waarmee mensen rationeel konden denken",
+                "De rede die de koning hield voor het volk"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Met 'de rede' werd het verstand bedoeld. Verlichte denkers geloofden dat mensen met hun verstand (rationeel denken) alles konden begrijpen en verklaren."
+            },
+            {
+              "id": 22,
+              "type": "multiple_choice",
+              "vraag": "Welke filosoof sprak over de 'duisternis van de onwetendheid' die overwonnen kon worden door het 'licht van het verstand'?",
+              "opties": [
+                "Diderot",
+                "d'Alembert",
+                "Eise Eisinga",
+                "Immanuel Kant"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "De Duitse filosoof Immanuel Kant gebruikte het beeld van de 'duisternis van de onwetendheid' die overwonnen kon worden door het 'licht van het verstand'."
+            },
+            {
+              "id": 23,
+              "type": "invullen",
+              "vraag": "Vul in: De Verlichting ontstond na de wetenschappelijke revolutie van de ___ eeuw.",
+              "juiste_antwoord": "17e",
+              "uitleg": "Sinds de wetenschappelijke revolutie van de 17e eeuw waren er belangrijke ontdekkingen gedaan. In de 18e eeuw leidde dit tot de Verlichting."
+            },
+            {
+              "id": 24,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke kenmerken horen bij de Verlichting?",
+              "opties": [
+                "Het gebruik van het verstand (de rede) bevorderen",
+                "Geloven dat mensen alles kunnen begrijpen door rationeel te denken",
+                "Terugkeer naar de middeleeuwen",
+                "Verlichte denkers richtten genootschappen op",
+                "Afwijzing van alle vormen van kennis"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
+              "uitleg": "De Verlichting kenmerkte zich door het bevorderen van het verstand, het geloof in rationeel denken en het oprichten van genootschappen. Het was juist het tegenovergestelde van een terugkeer naar onwetendheid."
+            },
+            {
+              "id": 25,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
+              "opties": [
+                "De Verlichting ontstaat in de 18e eeuw",
+                "Verlichte denkers richten genootschappen op zoals Felix Meritis",
+                "De wetenschappelijke revolutie in de 17e eeuw",
+                "Het idee ontstaat dat mensen alles kunnen begrijpen met de rede"
+              ],
+              "juiste_volgorde": [
+                "De wetenschappelijke revolutie in de 17e eeuw",
+                "Het idee ontstaat dat mensen alles kunnen begrijpen met de rede",
+                "De Verlichting ontstaat in de 18e eeuw",
+                "Verlichte denkers richten genootschappen op zoals Felix Meritis"
+              ],
+              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen ontstond het idee van rationeel denken, vervolgens kwam de Verlichting als beweging op en ten slotte werden genootschappen opgericht."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "3.2",
+          "subdoel_titel": "Kennis en de Encyclopedie",
+          "vragen": [
+            {
+              "id": 26,
+              "type": "multiple_choice",
+              "vraag": "Wie brachten vanaf 1751 alle kennis bijeen in de Encyclopedie?",
+              "opties": [
+                "Diderot en d'Alembert",
+                "Lodewijk XIV en de geestelijkheid",
+                "Immanuel Kant en Eise Eisinga",
+                "Eise Eisinga en Diderot"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Diderot en d'Alembert brachten vanaf 1751 alle kennis bijeen in de Encyclopedie, een werk van 28 boeken met 72.000 artikelen."
+            },
+            {
+              "id": 27,
+              "type": "multiple_choice",
+              "vraag": "Waarom bouwde Eise Eisinga een planetarium in Franeker?",
+              "opties": [
+                "Om de koning te eren",
+                "Om de encyclopedie van Diderot aan te vullen",
+                "Om te bewijzen dat de aarde rond was",
+                "Om te laten zien dat een domineesvoorspelling over de ondergang van de wereld niet klopte"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Eise Eisinga was een wolkammer uit Franeker die een planetarium bouwde om te laten zien dat een domineesvoorspelling over de ondergang van de wereld niet klopte. Hij was een typisch voorbeeld van een verlichte burger."
+            },
+            {
+              "id": 28,
+              "type": "invullen",
+              "vraag": "Vul in: De Encyclopedie bestond uit ___ boeken met ___ artikelen.",
+              "juiste_antwoord": "28 boeken met 72.000 artikelen",
+              "uitleg": "De Encyclopedie van Diderot en d'Alembert was een enorm werk: 28 boeken met maar liefst 72.000 artikelen, waarin alle kennis van die tijd werd samengebracht."
+            },
+            {
+              "id": 29,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over kennis tijdens de Verlichting zijn juist?",
+              "opties": [
+                "Diderot en d'Alembert maakten de Encyclopedie",
+                "Felix Meritis was een verlicht genootschap in Amsterdam",
+                "Eise Eisinga was een wolkammer uit Franeker",
+                "De Encyclopedie verscheen voor het eerst in 1700",
+                "Immanuel Kant schreef de Encyclopedie"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Diderot en d'Alembert maakten de Encyclopedie (vanaf 1751, niet 1700). Felix Meritis was een genootschap in Amsterdam. Eise Eisinga was een wolkammer uit Franeker. Immanuel Kant was een Duitse filosoof maar schreef niet de Encyclopedie."
+            },
+            {
+              "id": 30,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
+              "opties": [
+                "Een dominee voorspelt de ondergang van de wereld",
+                "Diderot en d'Alembert beginnen aan de Encyclopedie (1751)",
+                "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen",
+                "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen"
+              ],
+              "juiste_volgorde": [
+                "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen",
+                "Diderot en d'Alembert beginnen aan de Encyclopedie (1751)",
+                "Een dominee voorspelt de ondergang van de wereld",
+                "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen"
+              ],
+              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen begonnen Diderot en d'Alembert aan de Encyclopedie (1751). Later deed een dominee zijn voorspelling en bouwde Eise Eisinga zijn planetarium om die te weerleggen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 4,
+      "leerdoel_titel": "Verlichte ideeen en denkers",
+      "paragraaf": "4.1",
+      "uitleg_tekst": "Tijdens de Verlichting gingen denkers anders denken over godsdienst, rechten en politiek. Ze vonden dat mensen tolerant moesten zijn en dat rampen niet door God werden gestuurd, maar door natuurwetten kwamen. Ze pleitten voor gelijke rechten, vrijheid en een eerlijke verdeling van macht. John Locke vond dat de vorst zijn macht van het volk kreeg en dat het volk een slechte vorst mocht afzetten. Montesquieu bedacht de driemachtenleer: de macht moest verdeeld worden over parlement, regering en rechters.",
+      "subdoelen": [
+        {
+          "subdoel_id": "4.1",
+          "subdoel_titel": "Verlichte ideeen over godsdienst",
+          "vragen": [
+            {
+              "id": 31,
+              "type": "multiple_choice",
+              "vraag": "Wat vonden verlichte denkers van de manier waarop mensen met verschillende godsdiensten omgingen?",
+              "opties": [
+                "Iedereen moest hetzelfde geloof aannemen",
+                "Er moest meer tolerantie zijn tussen godsdiensten",
+                "Godsdienst moest helemaal worden afgeschaft",
+                "Alleen de koning mocht bepalen welk geloof werd toegestaan"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Verlichte denkers pleitten voor verdraagzaamheid (tolerantie) tussen godsdiensten. Ze wilden godsdienst niet afschaffen, maar vonden dat mensen met verschillende geloven respectvol met elkaar moesten omgaan."
+            },
+            {
+              "id": 32,
+              "type": "multiple_choice",
+              "vraag": "Hoe dachten de meeste mensen VOOR de Verlichting over rampen zoals aardbevingen en overstromingen?",
+              "opties": [
+                "Rampen waren het gevolg van natuurwetten",
+                "Rampen kwamen door slecht bestuur van de koning",
+                "Rampen waren een straf van God",
+                "Rampen werden veroorzaakt door hekserij"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Voor de Verlichting geloofde bijna iedereen dat God voortdurend ingreep in het dagelijks leven. Rampen werden gezien als een straf van God. Verlichte denkers zagen rampen juist als gevolg van natuurwetten."
+            },
+            {
+              "id": 33,
+              "type": "invullen",
+              "vraag": "Voltaire vergeleek God met een klokkenmaker. Wat bedoelde hij daarmee? Vul aan: God had de wereld geschapen, maar ... zich er niet meer mee.",
+              "juiste_antwoord": "bemoeide",
+              "uitleg": "Voltaire zag God als een klokkenmaker: Hij had de wereld in gang gezet (zoals een klokkenmaker een klok maakt), maar bemoeide zich er daarna niet meer mee. De wereld draaide verder op basis van natuurwetten."
+            },
+            {
+              "id": 34,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken passen bij het verlichte denken over godsdienst? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Alles is het gevolg van menselijk handelen en natuurwetten",
+                "God grijpt dagelijks in op aarde",
+                "Er moet verdraagzaamheid zijn tussen godsdiensten",
+                "Rampen zijn altijd een straf van God",
+                "Sommige denkers geloofden helemaal niet meer in God"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
+              "uitleg": "Verlichte denkers geloofden dat alles door natuurwetten en menselijk handelen kwam (niet door Gods ingrijpen). Ze pleitten voor tolerantie tussen godsdiensten. Sommigen gingen zo ver dat ze atheist werden: ze geloofden helemaal niet meer in God."
+            },
+            {
+              "id": 35,
+              "type": "volgorde",
+              "vraag": "Zet de ontwikkeling van het denken over God in de juiste volgorde, van het oudste naar het nieuwste idee.",
+              "opties": [
+                "God grijpt voortdurend in en rampen zijn Zijn straf",
+                "God heeft de wereld geschapen als een klokkenmaker, maar bemoeit zich er niet meer mee",
+                "Sommige denkers geloven helemaal niet meer in God (atheisme)"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Eerst geloofden mensen dat God overal ingreep. Vervolgens ontstond het idee (onder andere van Voltaire) dat God de wereld had geschapen maar zich er niet meer mee bemoeide. Sommige denkers gingen nog een stap verder en werden atheist."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "4.2",
+          "subdoel_titel": "Verlichte ideeen over rechten en politiek",
+          "vragen": [
+            {
+              "id": 36,
+              "type": "multiple_choice",
+              "vraag": "Waarom hadden verlichte denkers kritiek op de standenmaatschappij?",
+              "opties": [
+                "Ze vonden dat de adel te weinig macht had",
+                "Ze vonden dat alle mensen gelijk geboren zijn",
+                "Ze vonden dat de geestelijkheid het land moest besturen",
+                "Ze vonden dat alleen rijke burgers rechten verdienden"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Verlichte denkers bekritiseerden de standenmaatschappij omdat ze vonden dat alle mensen gelijk geboren zijn. In de standenmaatschappij had je door geboorte meer of minder rechten, en dat vonden zij onrechtvaardig."
+            },
+            {
+              "id": 37,
+              "type": "invullen",
+              "vraag": "Een staat waarin de wet voor iedereen geldt, ook voor de koning, noemen we een ...",
+              "juiste_antwoord": "rechtsstaat",
+              "uitleg": "In een rechtsstaat moet iedereen zich aan de wet houden, ook de machthebbers. Dit was een belangrijk verlicht idee: niemand staat boven de wet."
+            },
+            {
+              "id": 38,
+              "type": "multiple_choice",
+              "vraag": "Wat zijn mensenrechten?",
+              "opties": [
+                "Rechten die alleen voor adellijke mannen gelden",
+                "Rechten die de koning verleent aan trouwe burgers",
+                "Rechten die voor alle mensen gelden, zoals vrijheid van godsdienst",
+                "Rechten die alleen in Frankrijk werden ingevoerd"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Mensenrechten zijn rechten die voor alle mensen gelden, ongeacht stand, geslacht of afkomst. Voorbeelden zijn vrijheid van godsdienst en vrijheid van meningsuiting."
+            },
+            {
+              "id": 39,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke ideeen hoorden bij de Verlichting? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Meer vrijheid voor burgers",
+                "De koning staat boven de wet",
+                "Gelijkheid tussen mensen",
+                "Burgers mogen invloed hebben op de politiek",
+                "De standenmaatschappij moet blijven bestaan"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
+              "uitleg": "Verlichte denkers pleitten voor meer vrijheid, gelijkheid en invloed van burgers op de politiek. Ze waren juist tegen de standenmaatschappij en vonden dat de wet ook voor de koning moest gelden."
+            },
+            {
+              "id": 40,
+              "type": "volgorde",
+              "vraag": "Zet deze begrippen in volgorde van beperkt naar uitgebreid als het gaat om de rechten van burgers.",
+              "opties": [
+                "Standenmaatschappij: rechten afhankelijk van je geboorte",
+                "Rechtsstaat: de wet geldt voor iedereen gelijk",
+                "Mensenrechten: alle mensen hebben recht op vrijheid en gelijkheid"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "In de standenmaatschappij hingen je rechten af van de stand waarin je geboren was. In een rechtsstaat geldt de wet gelijk voor iedereen. Mensenrechten gaan nog verder: alle mensen hebben fundamentele rechten zoals vrijheid van godsdienst en meningsuiting."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "4.3",
+          "subdoel_titel": "Verlichte denkers: Locke en Montesquieu",
+          "vragen": [
+            {
+              "id": 41,
+              "type": "multiple_choice",
+              "vraag": "Volgens John Locke krijgt een vorst zijn macht van ...",
+              "opties": [
+                "God",
+                "het parlement",
+                "het volk",
+                "het leger"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "John Locke was een Britse denker die vond dat vorsten hun macht NIET van God kregen, maar van het volk. Als een vorst zijn macht misbruikte, mocht het volk hem afzetten."
+            },
+            {
+              "id": 42,
+              "type": "multiple_choice",
+              "vraag": "Welke drie machten onderscheidde Montesquieu in zijn driemachtenleer?",
+              "opties": [
+                "Koning, adel en geestelijkheid",
+                "Wetgevende, uitvoerende en rechterlijke macht",
+                "Leger, kerk en parlement",
+                "Eerste, tweede en derde stand"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Montesquieu onderscheidde drie machten: de wetgevende macht (parlement maakt wetten), de uitvoerende macht (regering voert wetten uit) en de rechterlijke macht (rechters spreken recht). Door deze te scheiden voorkom je onderdrukking."
+            },
+            {
+              "id": 43,
+              "type": "invullen",
+              "vraag": "Volgens Locke is het de taak van een vorst om het leven, de vrijheid en het ... van burgers te beschermen.",
+              "juiste_antwoord": "bezit",
+              "uitleg": "John Locke vond dat een vorst drie dingen moest beschermen: het leven, de vrijheid en het bezit van de burgers. Als de vorst dit niet deed, mocht het volk hem afzetten."
+            },
+            {
+              "id": 44,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken horen bij de ideeen van Montesquieu? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "De wetgevende macht hoort bij het parlement",
+                "Het volk mag een slechte vorst afzetten",
+                "Onafhankelijke rechters spreken recht",
+                "De regering voert de wetten uit",
+                "Een vorst krijgt zijn macht van het volk"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
+              "uitleg": "Montesquieu bedacht de driemachtenleer (trias politica): het parlement maakt wetten (wetgevend), de regering voert ze uit (uitvoerend) en onafhankelijke rechters spreken recht (rechterlijk). De ideeen over het afzetten van vorsten en macht van het volk horen bij John Locke."
+            },
+            {
+              "id": 45,
+              "type": "volgorde",
+              "vraag": "Zet het wetgevende proces in de juiste volgorde volgens de driemachtenleer van Montesquieu.",
+              "opties": [
+                "Het parlement maakt een nieuwe wet",
+                "De regering voert de wet uit",
+                "Onafhankelijke rechters beoordelen of de wet wordt nageleefd"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Volgens de driemachtenleer maakt het parlement (wetgevende macht) de wetten, voert de regering (uitvoerende macht) ze uit, en controleren onafhankelijke rechters (rechterlijke macht) of de wetten worden nageleefd."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 5,
+      "leerdoel_titel": "Het begin van de Franse Revolutie",
+      "paragraaf": "4.3",
+      "uitleg_tekst": "Lodewijk XVI werd koning in 1774 en leende veel geld om mee te doen aan de Amerikaanse Onafhankelijkheidsoorlog. In 1788 kon hij de rente niet meer betalen en riep hij de Staten-Generaal bijeen. De derde stand riep zichzelf uit tot Nationale Vergadering en legde de Eed op de Kaatsbaan af: ze zouden pas uit elkaar gaan als er een grondwet was. Op 14 juli 1789 veroverde een woedende menigte de Bastille, het begin van de Franse Revolutie.",
+      "subdoelen": [
+        {
+          "subdoel_id": "5.1",
+          "subdoel_titel": "Oorzaken en aanloop",
+          "vragen": [
+            {
+              "id": 46,
+              "type": "multiple_choice",
+              "vraag": "Waarom had Lodewijk XVI zoveel geld geleend?",
+              "opties": [
+                "Om het paleis van Versailles te laten bouwen",
+                "Om mee te doen aan de Amerikaanse Onafhankelijkheidsoorlog",
+                "Om de hongersnood in Frankrijk te bestrijden",
+                "Om een oorlog tegen Engeland te voeren in Europa"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI leende veel geld om mee te doen aan de Amerikaanse Onafhankelijkheidsoorlog. In 1788 had hij niet eens genoeg geld meer om de rente te betalen."
+            },
+            {
+              "id": 47,
+              "type": "invullen",
+              "vraag": "Lodewijk XVI riep de Staten-Generaal bijeen. Dit was voor het eerst in ... jaar.",
+              "juiste_antwoord": "174",
+              "uitleg": "De Staten-Generaal waren al 174 jaar niet meer bijeengekomen. Lodewijk XVI was gedwongen ze bijeen te roepen omdat hij niet genoeg geld had om de rente op zijn leningen te betalen."
+            },
+            {
+              "id": 48,
+              "type": "multiple_choice",
+              "vraag": "Waarom weigerde de derde stand om apart te vergaderen in de Staten-Generaal?",
+              "opties": [
+                "Ze wilden samen met adel en geestelijkheid vergaderen om meer invloed te hebben",
+                "Ze hadden geen eigen vergaderzaal gekregen",
+                "De koning had hen verboden om apart te vergaderen",
+                "Ze wilden eerst de grondwet lezen voordat ze gingen vergaderen"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De adel en geestelijkheid wilden apart vergaderen (dan kon elke stand apart stemmen en zouden de twee bevoorrechte standen altijd winnen). De derde stand weigerde dit en riep zichzelf uit tot Nationale Vergadering."
+            },
+            {
+              "id": 49,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke gebeurtenissen horen bij de aanloop naar de Franse Revolutie? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Lodewijk XVI kon de rente op zijn leningen niet meer betalen",
+                "De Staten-Generaal kwamen bijeen in Versailles",
+                "De derde stand riep zichzelf uit tot Nationale Vergadering",
+                "Napoleon pleegde een staatsgreep",
+                "Lodewijk XVI werd onthoofd"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De aanloop naar de revolutie bestond uit de geldproblemen van Lodewijk XVI, het bijeenroepen van de Staten-Generaal en het uitroepen van de Nationale Vergadering door de derde stand. De staatsgreep van Napoleon en de onthoofding van Lodewijk XVI vonden pas later plaats."
+            },
+            {
+              "id": 50,
+              "type": "volgorde",
+              "vraag": "Zet de gebeurtenissen in de aanloop naar de Franse Revolutie in de juiste volgorde.",
+              "opties": [
+                "Lodewijk XVI kan de rente niet meer betalen (1788)",
+                "De Staten-Generaal komen bijeen in Versailles (mei 1789)",
+                "De derde stand roept zichzelf uit tot Nationale Vergadering",
+                "De Eed op de Kaatsbaan: pas uit elkaar als er een grondwet is"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Eerst had Lodewijk XVI geldproblemen (1788), toen riep hij de Staten-Generaal bijeen (mei 1789). Daar weigerde de derde stand apart te vergaderen en riep zichzelf uit tot Nationale Vergadering. Toen de koning hun zaal sloot, weken ze uit naar de kaatsbaan en legden daar hun beroemde eed af."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.2",
+          "subdoel_titel": "De Bastille en het begin van de opstand",
+          "vragen": [
+            {
+              "id": 51,
+              "type": "multiple_choice",
+              "vraag": "Wat gebeurde er op 14 juli 1789?",
+              "opties": [
+                "De derde stand legde de Eed op de Kaatsbaan af",
+                "Lodewijk XVI werd onthoofd",
+                "Een menigte veroverde de Bastille",
+                "De Staten-Generaal werden bijeengeroepen"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Op 14 juli 1789 bestormde een woedende menigte de Bastille, een gevangenis in Parijs. Dit wordt gezien als het begin van de Franse Revolutie."
+            },
+            {
+              "id": 52,
+              "type": "invullen",
+              "vraag": "De vertegenwoordigers van de derde stand legden de Eed op de Kaatsbaan af. Ze beloofden pas uit elkaar te gaan als er een ... was.",
+              "juiste_antwoord": "grondwet",
+              "uitleg": "Toen de koning de vergaderzaal liet sluiten, week de derde stand uit naar een kaatsbaan. Daar legden ze de eed af dat ze pas uit elkaar zouden gaan als er een grondwet was opgesteld."
+            },
+            {
+              "id": 53,
+              "type": "multiple_choice",
+              "vraag": "Wie vormden de meerderheid van de vertegenwoordigers van de derde stand?",
+              "opties": [
+                "Arme boeren van het platteland",
+                "Rijke burgers",
+                "Soldaten uit het leger",
+                "Priesters uit de lagere geestelijkheid"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De meeste vertegenwoordigers van de derde stand waren rijke burgers, niet het gewone volk. Het gewone volk had wel dezelfde onvrede: ze leden honger en hatten de bevoorrechte standen."
+            },
+            {
+              "id": 54,
+              "type": "choose_all_that_apply",
+              "vraag": "Waarom was het gewone volk ontevreden aan het begin van de Franse Revolutie? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Ze leden honger",
+                "Ze wilden een republiek zoals in Amerika",
+                "Ze hatten de bevoorrechte standen",
+                "Ze wilden dat Napoleon koning werd",
+                "Ze waren boos over de standsverschillen"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
+              "uitleg": "Het gewone volk had honger, haatte de bevoorrechte standen (adel en geestelijkheid) en was boos over de ongelijke behandeling in de standenmaatschappij. Een republiek of Napoleon speelden op dat moment nog geen rol."
+            },
+            {
+              "id": 55,
+              "type": "volgorde",
+              "vraag": "Zet de gebeurtenissen rond het begin van de Franse Revolutie in de juiste volgorde.",
+              "opties": [
+                "De Eed op de Kaatsbaan",
+                "De bestorming van de Bastille (14 juli 1789)",
+                "Opstand slaat over naar het platteland",
+                "Boeren vermoorden edelen en geestelijken"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Eerst legde de derde stand de Eed op de Kaatsbaan af. Daarna volgde op 14 juli 1789 de bestorming van de Bastille. De opstand sloeg vervolgens over naar het platteland, waar boeren edelen en geestelijken vermoordden."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 6,
+      "leerdoel_titel": "Politieke veranderingen in de Franse Revolutie",
+      "paragraaf": "4.3",
+      "uitleg_tekst": "Na de bestorming van de Bastille schafte de Nationale Vergadering de standsverschillen af. In 1791 kwam er een grondwet met een constitutionele monarchie, maar in 1792 werd de republiek uitgeroepen en werd Lodewijk XVI onthoofd in 1793. Robespierre regeerde daarna met terreur: duizenden werden naar de guillotine gestuurd. In 1794 werd Robespierre zelf onthoofd. Na een periode van gematigde regeringen pleegde generaal Napoleon Bonaparte in 1799 een staatsgreep, waarmee de Franse Revolutie eindigde.",
+      "subdoelen": [
+        {
+          "subdoel_id": "6.1",
+          "subdoel_titel": "Van monarchie naar republiek 1789-1792",
+          "vragen": [
+            {
+              "id": 56,
+              "type": "multiple_choice",
+              "vraag": "Wat was de eerste grote maatregel van de Nationale Vergadering?",
+              "opties": [
+                "Ze riepen de republiek uit",
+                "Ze schafte de standsverschillen af",
+                "Ze lieten Lodewijk XVI onthoofden",
+                "Ze verklaarden de oorlog aan Oostenrijk"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De Nationale Vergadering schafte als eerste de standsverschillen af. De republiek, de onthoofding van de koning en de oorlog met Oostenrijk kwamen pas later."
+            },
+            {
+              "id": 57,
+              "type": "invullen",
+              "vraag": "In 1791 werd Frankrijk een constitutionele monarchie. Dat betekent dat de koning zich moest houden aan de ...",
+              "juiste_antwoord": "grondwet",
+              "uitleg": "Bij een constitutionele monarchie is er nog wel een koning, maar die moet zich aan de grondwet houden. De macht van de koning wordt dus beperkt door wetten."
+            },
+            {
+              "id": 58,
+              "type": "multiple_choice",
+              "vraag": "Wie kregen kiesrecht volgens de grondwet van 1791?",
+              "opties": [
+                "Alle volwassen burgers",
+                "Alleen mannen met een goed inkomen",
+                "Alleen leden van de adel en geestelijkheid",
+                "Alle mannen en vrouwen boven de 21 jaar"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "In de grondwet van 1791 kregen alleen mannen met een goed inkomen kiesrecht. Arme mannen en alle vrouwen mochten niet stemmen. De gematigde leden van de Nationale Vergadering wilden de monarchie behouden met beperkt kiesrecht."
+            },
+            {
+              "id": 59,
+              "type": "choose_all_that_apply",
+              "vraag": "Waarom radicaliseerde de revolutie in 1792? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Oorlog met Oostenrijk en Pruisen",
+                "Napoleon pleegde een staatsgreep",
+                "De koning werd verdacht van landverraad",
+                "Robespierre werd onthoofd",
+                "Volkswoede leidde tot moord op edelen en geestelijken"
+              ],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
+              "uitleg": "In 1792 radicaliseerde de revolutie door de oorlog met Oostenrijk en Pruisen (die de absolute monarchie wilden herstellen), het vermoeden dat de koning landverraad pleegde, en de volkswoede die leidde tot het vermoorden van edelen en geestelijken."
+            },
+            {
+              "id": 60,
+              "type": "volgorde",
+              "vraag": "Zet de politieke veranderingen in de juiste chronologische volgorde.",
+              "opties": [
+                "Standsverschillen worden afgeschaft",
+                "Grondwet met constitutionele monarchie (1791)",
+                "Oorlog met Oostenrijk en Pruisen (1792)",
+                "De republiek wordt uitgeroepen (1792)"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "uitleg": "Eerst schafte de Nationale Vergadering de standsverschillen af. In 1791 kwam de grondwet met een constitutionele monarchie. In 1792 brak oorlog uit met Oostenrijk en Pruisen, waarna de radicalen de republiek uitriepen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "6.2",
+          "subdoel_titel": "Terreur en einde van de revolutie 1793-1799",
+          "vragen": [
+            {
+              "id": 61,
+              "type": "multiple_choice",
+              "vraag": "Wanneer werd Lodewijk XVI onthoofd?",
+              "opties": [
+                "14 juli 1789",
+                "21 januari 1793",
+                "1794",
+                "1799"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI werd op 21 januari 1793 onthoofd met de guillotine. Hij was veroordeeld voor landverraad door het radicale parlement."
+            },
+            {
+              "id": 62,
+              "type": "multiple_choice",
+              "vraag": "Welke leus gebruikte Robespierre, terwijl hij tegelijk met terreur regeerde?",
+              "opties": [
+                "Orde, discipline en gezag",
+                "Vrijheid, gelijkheid, broederschap",
+                "God, koning en vaderland",
+                "Eenheid, recht en vooruitgang"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Robespierre gebruikte de leus 'vrijheid, gelijkheid, broederschap', maar regeerde in werkelijkheid met terreur. Speciale rechtbanken stuurden duizenden mensen naar de guillotine."
+            },
+            {
+              "id": 63,
+              "type": "invullen",
+              "vraag": "In 1799 maakte generaal Napoleon Bonaparte een einde aan de Franse Revolutie door een ... te plegen.",
+              "juiste_antwoord": "staatsgreep",
+              "uitleg": "Napoleon Bonaparte pleegde in 1799 een staatsgreep: hij nam met zijn leger plotseling en gewelddadig de macht over. Dit was het einde van de Franse Revolutie."
+            },
+            {
+              "id": 64,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken zijn waar over de periode van Robespierres bewind? (meerdere antwoorden mogelijk)",
+              "opties": [
+                "Hij regeerde met terreur",
+                "Speciale rechtbanken stuurden duizenden naar de guillotine",
+                "Hij herstelde de constitutionele monarchie",
+                "Zijn leus was: vrijheid, gelijkheid, broederschap",
+                "Hij werd in 1794 zelf gearresteerd en onthoofd"
+              ],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
+              "uitleg": "Robespierre regeerde met terreur, liet duizenden naar de guillotine sturen en gebruikte de leus 'vrijheid, gelijkheid, broederschap'. In 1794 werd hij zelf gearresteerd en onthoofd. Hij herstelde de monarchie juist niet; Frankrijk was een republiek."
+            },
+            {
+              "id": 65,
+              "type": "volgorde",
+              "vraag": "Zet de laatste fase van de Franse Revolutie in de juiste volgorde.",
+              "opties": [
+                "Lodewijk XVI wordt onthoofd (1793)",
+                "Robespierre regeert met terreur",
+                "Robespierre wordt zelf onthoofd (1794)",
+                "Gematigde regeringen besturen Frankrijk (1794-1799)",
+                "Napoleon pleegt een staatsgreep (1799)"
+              ],
+              "juiste_volgorde": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "uitleg": "Na de onthoofding van Lodewijk XVI (1793) nam Robespierre de macht over en regeerde met terreur. In 1794 werd Robespierre zelf gearresteerd en onthoofd. Daarna volgden gematigde regeringen, totdat Napoleon in 1799 een staatsgreep pleegde en de revolutie beeindigde."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 7,
+      "leerdoel_titel": "Personen",
+      "paragraaf": "4.1 en 4.3",
+      "uitleg_tekst": "In de leerstof komen verschillende belangrijke personen voor. Van elke persoon moet je weten wie hij was, wat hij deed, en waarom hij belangrijk is voor deze periode.",
+      "subdoelen": [
+        {
+          "subdoel_id": "7.1",
+          "subdoel_titel": "Lodewijk XIV",
+          "vragen": [
+            {
+              "id": 66,
+              "type": "multiple_choice",
+              "vraag": "Waarom droeg Lodewijk XIV een enorme pruik?",
+              "opties": [
+                "Omdat hij een huidziekte wilde verbergen",
+                "Omdat hij kaal werd en dat wilde verbergen",
+                "Omdat het verplicht was voor Franse koningen",
+                "Omdat hij een litteken op zijn hoofd had"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XIV droeg een enorme pruik om te verbergen dat hij kaal werd. Zijn voorbeeld werd door velen in Europa gevolgd."
+            },
+            {
+              "id": 67,
+              "type": "multiple_choice",
+              "vraag": "Welk beroemd paleis liet Lodewijk XIV bouwen?",
+              "opties": [
+                "Het Louvre",
+                "Paleis Sanssouci",
+                "Het paleis van Versailles",
+                "Buckingham Palace"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Lodewijk XIV staat bekend om het paleis van Versailles, dat symbool stond voor zijn macht en rijkdom."
+            },
+            {
+              "id": 68,
+              "type": "invullen",
+              "vraag": "In welk land was Lodewijk XIV koning?",
+              "juiste_antwoord": "Frankrijk",
+              "uitleg": "Lodewijk XIV was koning van Frankrijk in de 17e eeuw."
+            },
+            {
+              "id": 69,
+              "type": "multiple_choice",
+              "vraag": "Wat gebeurde er nadat Lodewijk XIV een pruik ging dragen?",
+              "opties": [
+                "Hij werd uitgelachen door andere vorsten",
+                "Het dragen van pruiken werd verboden",
+                "Zijn voorbeeld werd door velen gevolgd",
+                "Hij schoor ook zijn baard af"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Het voorbeeld van Lodewijk XIV werd door velen gevolgd: pruiken werden daarna wijdverbreid in de hogere kringen."
+            },
+            {
+              "id": 70,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Lodewijk XIV zijn juist?",
+              "opties": [
+                "Hij was een Franse koning",
+                "Hij leefde in de 17e eeuw",
+                "Hij bedacht de trias politica",
+                "Hij liet het paleis van Versailles bouwen",
+                "Hij schreef de Encyclopédie"
+              ],
+              "uitleg": "Lodewijk XIV was een Franse koning in de 17e eeuw, bekend van het paleis van Versailles. De trias politica is van Montesquieu en de Encyclopédie is van Diderot en d'Alembert.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.2",
+          "subdoel_titel": "Immanuel Kant",
+          "vragen": [
+            {
+              "id": 71,
+              "type": "multiple_choice",
+              "vraag": "Uit welk land kwam de filosoof Immanuel Kant?",
+              "opties": [
+                "Frankrijk",
+                "Engeland",
+                "Duitsland",
+                "Nederland"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Immanuel Kant was een Duitse filosoof en een belangrijke aanhanger van de Verlichting."
+            },
+            {
+              "id": 72,
+              "type": "invullen",
+              "vraag": "Volgens Immanuel Kant kon de 'duisternis van de onwetendheid' worden overwonnen door het '... van het verstand'. Welk woord hoort op de puntjes?",
+              "juiste_antwoord": "licht",
+              "uitleg": "Kant zei dat de duisternis van de onwetendheid kon worden overwonnen door het 'licht van het verstand'. Dit is een beroemd citaat van de Verlichting."
+            },
+            {
+              "id": 73,
+              "type": "multiple_choice",
+              "vraag": "Van welke stroming was Immanuel Kant een aanhanger?",
+              "opties": [
+                "Het absolutisme",
+                "De Reformatie",
+                "De Verlichting",
+                "De Romantiek"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Immanuel Kant was een aanhanger van de Verlichting. Hij geloofde dat het verstand (de rede) de onwetendheid kon overwinnen."
+            },
+            {
+              "id": 74,
+              "type": "multiple_choice",
+              "vraag": "Wie sprak over de 'duisternis van de onwetendheid' die overwonnen kon worden door het 'licht van het verstand'?",
+              "opties": [
+                "Voltaire",
+                "John Locke",
+                "Montesquieu",
+                "Immanuel Kant"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Dit beroemde citaat is van de Duitse filosoof Immanuel Kant, een belangrijke verlichte denker."
+            },
+            {
+              "id": 75,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Immanuel Kant zijn juist?",
+              "opties": [
+                "Hij was een Duitse filosoof",
+                "Hij was een aanhanger van de Verlichting",
+                "Hij bedacht de driemachtenleer",
+                "Hij sprak over het 'licht van het verstand'",
+                "Hij schreef mee aan de Encyclopédie"
+              ],
+              "uitleg": "Kant was een Duitse filosoof en aanhanger van de Verlichting, bekend om zijn uitspraak over het 'licht van het verstand'. De driemachtenleer is van Montesquieu en de Encyclopédie is van Diderot en d'Alembert.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.3",
+          "subdoel_titel": "Diderot en d'Alembert",
+          "vragen": [
+            {
+              "id": 76,
+              "type": "multiple_choice",
+              "vraag": "Wat brachten Diderot en d'Alembert vanaf 1751 uit?",
+              "opties": [
+                "Een reeks filosofische romans",
+                "De Encyclopédie",
+                "Een nieuw wetboek",
+                "Een atlas van de wereld"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Diderot en d'Alembert brachten vanaf 1751 de Encyclopédie uit, waarin ze alle kennis van hun tijd bijeenbrachten."
+            },
+            {
+              "id": 77,
+              "type": "invullen",
+              "vraag": "Uit hoeveel boeken bestond de Encyclopédie van Diderot en d'Alembert?",
+              "juiste_antwoord": "28",
+              "uitleg": "De Encyclopédie bestond uit 28 boeken met 72.000 artikelen en duizenden afbeeldingen."
+            },
+            {
+              "id": 78,
+              "type": "multiple_choice",
+              "vraag": "Uit welk land kwamen Diderot en d'Alembert?",
+              "opties": [
+                "Duitsland",
+                "Engeland",
+                "Nederland",
+                "Frankrijk"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Diderot en d'Alembert waren Franse schrijvers die samen de Encyclopédie samenstelden."
+            },
+            {
+              "id": 79,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de Encyclopédie zijn juist?",
+              "opties": [
+                "Het eerste deel verscheen in 1751",
+                "Het werk bestond uit 28 boeken",
+                "Het bevatte 72.000 artikelen",
+                "Het werd geschreven door Voltaire en Kant",
+                "Het bevatte duizenden afbeeldingen"
+              ],
+              "uitleg": "De Encyclopédie verscheen vanaf 1751, bestond uit 28 boeken met 72.000 artikelen en duizenden afbeeldingen. Het werd geschreven door Diderot en d'Alembert, niet door Voltaire en Kant.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "id": 80,
+              "type": "multiple_choice",
+              "vraag": "Wat was het doel van de Encyclopédie?",
+              "opties": [
+                "De macht van de koning verdedigen",
+                "Alle kennis bijeenbrengen",
+                "De kerk populairder maken",
+                "Een nieuw rechtssysteem voorstellen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Diderot en d'Alembert wilden alle kennis van hun tijd bijeenbrengen in de Encyclopédie. Dit paste bij het verlichtingsideaal dat kennis de mensheid vooruit zou helpen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.4",
+          "subdoel_titel": "Voltaire",
+          "vragen": [
+            {
+              "id": 81,
+              "type": "multiple_choice",
+              "vraag": "Hoe zag Voltaire de rol van God?",
+              "opties": [
+                "God bestond niet",
+                "God greep dagelijks in op aarde",
+                "God had de wereld geschapen maar bemoeide zich er niet meer mee",
+                "God strafte mensen die zondigden"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Voltaire zag God als een soort klokkenmaker: God had de wereld geschapen, maar bemoeide zich er verder niet meer mee."
+            },
+            {
+              "id": 82,
+              "type": "invullen",
+              "vraag": "Voltaire vergeleek God met een bepaald beroep. Welk beroep was dat?",
+              "juiste_antwoord": "klokkenmaker",
+              "uitleg": "Voltaire zag God als een soort klokkenmaker: hij had de wereld gemaakt (zoals een klokkenmaker een klok maakt), maar liet die daarna zelfstandig lopen."
+            },
+            {
+              "id": 83,
+              "type": "multiple_choice",
+              "vraag": "In welke periode leefde Voltaire?",
+              "opties": [
+                "1594-1678",
+                "1694-1778",
+                "1794-1878",
+                "1494-1578"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Voltaire leefde van 1694 tot 1778. Hij was een van de belangrijkste verlichte denkers uit Frankrijk."
+            },
+            {
+              "id": 84,
+              "type": "multiple_choice",
+              "vraag": "Welke denker wordt vaak omschreven als een 'verlicht denker' uit Frankrijk die God vergeleek met een klokkenmaker?",
+              "opties": [
+                "Montesquieu",
+                "Immanuel Kant",
+                "John Locke",
+                "Voltaire"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Voltaire was een Franse verlichte denker die God vergeleek met een klokkenmaker: God had de wereld geschapen maar bemoeide zich er niet meer mee."
+            },
+            {
+              "id": 85,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Voltaire zijn juist?",
+              "opties": [
+                "Hij was een Franse denker",
+                "Hij leefde van 1694 tot 1778",
+                "Hij vond dat God zich actief met de wereld bemoeide",
+                "Hij was een verlicht denker",
+                "Hij bedacht de trias politica"
+              ],
+              "uitleg": "Voltaire was een Franse verlichte denker (1694-1778). Hij vond juist dat God zich NIET meer met de wereld bemoeide. De trias politica is van Montesquieu.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.5",
+          "subdoel_titel": "John Locke",
+          "vragen": [
+            {
+              "id": 86,
+              "type": "multiple_choice",
+              "vraag": "Volgens John Locke krijgen vorsten hun macht van:",
+              "opties": [
+                "God",
+                "het leger",
+                "het volk",
+                "de kerk"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "John Locke vond dat vorsten hun macht niet van God krijgen, maar van het volk. Dit was een revolutionair idee in die tijd."
+            },
+            {
+              "id": 87,
+              "type": "invullen",
+              "vraag": "Uit welk land kwam de denker John Locke?",
+              "juiste_antwoord": "Engeland",
+              "uitleg": "John Locke was een Britse denker die belangrijke ideeën had over de macht van vorsten en de rechten van burgers."
+            },
+            {
+              "id": 88,
+              "type": "choose_all_that_apply",
+              "vraag": "Wat moest een vorst volgens John Locke beschermen?",
+              "opties": [
+                "Het leven van burgers",
+                "De vrijheid van burgers",
+                "De eer van de kerk",
+                "Het bezit van burgers",
+                "De macht van de adel"
+              ],
+              "uitleg": "Volgens Locke was het de taak van de vorst om het leven, de vrijheid en het bezit van burgers te beschermen.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 89,
+              "type": "multiple_choice",
+              "vraag": "Wat mocht het volk doen als een vorst zijn macht misbruikte, volgens John Locke?",
+              "opties": [
+                "Niets, want de vorst was door God aangesteld",
+                "Bidden dat de vorst zou veranderen",
+                "De vorst afzetten",
+                "Naar een ander land verhuizen"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Locke vond dat het volk vorsten mocht afzetten als zij hun macht misbruikten of ongeschikt waren. De macht lag uiteindelijk bij het volk."
+            },
+            {
+              "id": 90,
+              "type": "multiple_choice",
+              "vraag": "Welke denker vond dat vorsten hun macht van het volk krijgen en niet van God?",
+              "opties": [
+                "Voltaire",
+                "Montesquieu",
+                "John Locke",
+                "Immanuel Kant"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "John Locke was de Britse denker die stelde dat vorsten hun macht van het volk krijgen, niet van God."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.6",
+          "subdoel_titel": "Charles Montesquieu",
+          "vragen": [
+            {
+              "id": 91,
+              "type": "multiple_choice",
+              "vraag": "Welk idee bedacht Charles Montesquieu?",
+              "opties": [
+                "Het sociaal contract",
+                "De driemachtenleer (trias politica)",
+                "De volkssoevereiniteit",
+                "Het goddelijk recht van koningen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Montesquieu bedacht de driemachtenleer, ook wel trias politica genoemd. Hierin worden de drie machten in een staat gescheiden."
+            },
+            {
+              "id": 92,
+              "type": "invullen",
+              "vraag": "Hoe wordt de driemachtenleer van Montesquieu ook wel genoemd?",
+              "juiste_antwoord": "trias politica",
+              "uitleg": "De driemachtenleer van Montesquieu wordt ook wel de trias politica genoemd."
+            },
+            {
+              "id": 93,
+              "type": "volgorde",
+              "vraag": "Zet de drie machten van Montesquieu in de juiste volgorde bij de juiste instelling: parlement, regering, rechters.",
+              "opties": [
+                "Wetgevende macht",
+                "Uitvoerende macht",
+                "Rechterlijke macht"
+              ],
+              "uitleg": "De wetgevende macht hoort bij het parlement, de uitvoerende macht bij de regering en de rechterlijke macht bij de rechters.",
+              "juiste_volgorde": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 94,
+              "type": "multiple_choice",
+              "vraag": "Waarom moesten de drie machten volgens Montesquieu gescheiden zijn?",
+              "opties": [
+                "Om de koning meer macht te geven",
+                "Om te voorkomen dat bestuurders het volk onderdrukken",
+                "Om de kerk buiten de politiek te houden",
+                "Om oorlogen te voorkomen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Montesquieu vond dat gescheiden machten voorkomen dat bestuurders het volk onderdrukken. Als alle macht bij één persoon of groep ligt, is misbruik mogelijk."
+            },
+            {
+              "id": 95,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke machten horen bij de trias politica van Montesquieu?",
+              "opties": [
+                "Wetgevende macht (parlement)",
+                "Militaire macht (leger)",
+                "Uitvoerende macht (regering)",
+                "Kerkelijke macht (geestelijken)",
+                "Rechterlijke macht (rechters)"
+              ],
+              "uitleg": "De drie machten van de trias politica zijn: de wetgevende macht (parlement), de uitvoerende macht (regering) en de rechterlijke macht (rechters).",
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.7",
+          "subdoel_titel": "Eise Eisinga",
+          "vragen": [
+            {
+              "id": 96,
+              "type": "multiple_choice",
+              "vraag": "Wat was het beroep van Eise Eisinga?",
+              "opties": [
+                "Dominee",
+                "Wolkammer",
+                "Klokkenmaker",
+                "Schoolmeester"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Eise Eisinga was wolkammer van beroep. In zijn vrije tijd deed hij veel onderzoek naar wis- en sterrenkunde."
+            },
+            {
+              "id": 97,
+              "type": "invullen",
+              "vraag": "In welke stad woonde Eise Eisinga?",
+              "juiste_antwoord": "Franeker",
+              "uitleg": "Eise Eisinga was een wolkammer uit Franeker. Hij bouwde daar een planetarium in het plafond van zijn woonkamer."
+            },
+            {
+              "id": 98,
+              "type": "multiple_choice",
+              "vraag": "Waarom bouwde Eise Eisinga een planetarium?",
+              "opties": [
+                "Omdat de koning hem dat opdroeg",
+                "Om mensen gerust te stellen na een voorspelling over de ondergang van de wereld",
+                "Om beroemd te worden als wetenschapper",
+                "Omdat hij les wilde geven aan studenten"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "In 1774 deed een dominee een voorspelling over de ondergang van de wereld. Eisinga bouwde zijn planetarium om mensen gerust te stellen en te laten zien hoe het zonnestelsel echt werkt."
+            },
+            {
+              "id": 99,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Eise Eisinga zijn juist?",
+              "opties": [
+                "Hij was een wolkammer uit Franeker",
+                "Hij bouwde een planetarium in zijn woonkamer",
+                "Hij was een Franse filosoof",
+                "Hij deed in zijn vrije tijd onderzoek naar wis- en sterrenkunde",
+                "Zijn planetarium is nu een museum"
+              ],
+              "uitleg": "Eisinga was een wolkammer uit Franeker, geen Franse filosoof. Hij bouwde een planetarium in het plafond van zijn woonkamer, deed onderzoek naar wis- en sterrenkunde en zijn planetarium is nu een museum.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 100,
+              "type": "multiple_choice",
+              "vraag": "Waar bouwde Eise Eisinga zijn planetarium?",
+              "opties": [
+                "In een kerk in Amsterdam",
+                "In de universiteit van Leiden",
+                "In het plafond van zijn woonkamer",
+                "In het stadhuis van Franeker"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Eise Eisinga bouwde zijn planetarium in het plafond van zijn eigen woonkamer in Franeker."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.8",
+          "subdoel_titel": "Lodewijk XVI",
+          "vragen": [
+            {
+              "id": 101,
+              "type": "multiple_choice",
+              "vraag": "Waarom kon Lodewijk XVI in 1788 de rente niet meer betalen?",
+              "opties": [
+                "Omdat hij te veel feesten had gegeven",
+                "Omdat hij veel geld had geleend voor de Amerikaanse Onafhankelijkheidsoorlog",
+                "Omdat het volk weigerde belasting te betalen",
+                "Omdat Napoleon het geld had gestolen"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI had veel geld geleend om de Amerikaanse Onafhankelijkheidsoorlog te steunen. Daardoor kon hij in 1788 de rente niet meer betalen."
+            },
+            {
+              "id": 102,
+              "type": "invullen",
+              "vraag": "In welk jaar werd Lodewijk XVI onthoofd?",
+              "juiste_antwoord": "1793",
+              "uitleg": "Lodewijk XVI werd op 21 januari 1793 onthoofd met de guillotine, nadat hij was verdacht van landverraad."
+            },
+            {
+              "id": 103,
+              "type": "volgorde",
+              "vraag": "Zet de gebeurtenissen rond Lodewijk XVI in de juiste tijdsvolgorde.",
+              "opties": [
+                "Lodewijk XVI werd koning van Frankrijk",
+                "Hij kon de rente niet meer betalen",
+                "Hij riep de Staten-Generaal bijeen",
+                "Hij werd verdacht van landverraad en gevangengezet",
+                "Hij werd onthoofd met de guillotine"
+              ],
+              "uitleg": "Lodewijk XVI werd koning in 1774, kon in 1788 de rente niet meer betalen, riep in mei 1789 de Staten-Generaal bijeen, werd later verdacht van landverraad en gevangengezet, en werd op 21 januari 1793 onthoofd.",
+              "juiste_volgorde": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 104,
+              "type": "multiple_choice",
+              "vraag": "Wat deed Lodewijk XVI met de vergaderzaal van de derde stand?",
+              "opties": [
+                "Hij liet die vergroten",
+                "Hij liet die sluiten",
+                "Hij bezocht die elke dag",
+                "Hij liet die verbouwen tot paleis"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI liet de vergaderzaal van de derde stand sluiten. Dit leidde tot grote woede onder de afgevaardigden."
+            },
+            {
+              "id": 105,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Lodewijk XVI zijn juist?",
+              "opties": [
+                "Hij werd koning van Frankrijk in 1774",
+                "Hij leende geld voor de Amerikaanse Onafhankelijkheidsoorlog",
+                "Hij riep de Staten-Generaal bijeen in mei 1789",
+                "Hij regeerde met terreur en richtte speciale rechtbanken op",
+                "Hij werd onthoofd op 21 januari 1793"
+              ],
+              "uitleg": "Lodewijk XVI werd koning in 1774, leende geld voor de Amerikaanse Onafhankelijkheidsoorlog, riep de Staten-Generaal bijeen en werd in 1793 onthoofd. Het regeren met terreur en de speciale rechtbanken horen bij Robespierre.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.9",
+          "subdoel_titel": "Robespierre",
+          "vragen": [
+            {
+              "id": 106,
+              "type": "multiple_choice",
+              "vraag": "Welke positie had Robespierre in het parlement?",
+              "opties": [
+                "Hij was voorzitter van de gematigden",
+                "Hij was leider van de radicalen",
+                "Hij vertegenwoordigde de adel",
+                "Hij was adviseur van de koning"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Robespierre was de leider van de radicalen in het parlement. Na 1793 leidde hij de regering."
+            },
+            {
+              "id": 107,
+              "type": "invullen",
+              "vraag": "In welk jaar werd Robespierre zelf gearresteerd en onthoofd?",
+              "juiste_antwoord": "1794",
+              "uitleg": "Robespierre werd in 1794 zelf gearresteerd en onthoofd, nadat hij een schrikbewind had gevoerd."
+            },
+            {
+              "id": 108,
+              "type": "multiple_choice",
+              "vraag": "Hoe regeerde Robespierre nadat hij de macht had gekregen?",
+              "opties": [
+                "Democratisch, met vrije verkiezingen",
+                "Vreedzaam, met nadruk op overleg",
+                "Met terreur, waarbij hij niemand vertrouwde",
+                "Zwak, waardoor het leger de macht overnam"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Robespierre vertrouwde niemand en regeerde met terreur. Hij richtte speciale rechtbanken op die duizenden naar de guillotine stuurden."
+            },
+            {
+              "id": 109,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Robespierre zijn juist?",
+              "opties": [
+                "Hij zei dat hij voor vrijheid, gelijkheid en broederschap was",
+                "Hij richtte speciale rechtbanken op",
+                "Hij pleegde een staatsgreep met het leger",
+                "Hij stuurde duizenden naar de guillotine",
+                "Hij werd in 1794 zelf onthoofd"
+              ],
+              "uitleg": "Robespierre zei voor vrijheid, gelijkheid en broederschap te zijn, maar regeerde met terreur via speciale rechtbanken en stuurde duizenden naar de guillotine. Hij werd zelf in 1794 onthoofd. De staatsgreep met het leger was van Napoleon.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ]
+            },
+            {
+              "id": 110,
+              "type": "multiple_choice",
+              "vraag": "Wie richtte tijdens de Franse Revolutie speciale rechtbanken op die duizenden naar de guillotine stuurden?",
+              "opties": [
+                "Napoleon Bonaparte",
+                "Lodewijk XVI",
+                "Robespierre",
+                "Montesquieu"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Robespierre richtte speciale rechtbanken op die duizenden mensen ter dood veroordeelden met de guillotine. Deze periode staat bekend als de Terreur."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "7.10",
+          "subdoel_titel": "Napoleon Bonaparte",
+          "vragen": [
+            {
+              "id": 111,
+              "type": "multiple_choice",
+              "vraag": "Wat was Napoleon Bonaparte voordat hij de macht greep?",
+              "opties": [
+                "Een parlementslid",
+                "Een rechter",
+                "Een generaal in het Franse leger",
+                "Een adviseur van Robespierre"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Napoleon Bonaparte was generaal in het Franse leger voordat hij in 1799 een staatsgreep pleegde."
+            },
+            {
+              "id": 112,
+              "type": "invullen",
+              "vraag": "In welk jaar pleegde Napoleon Bonaparte zijn staatsgreep?",
+              "juiste_antwoord": "1799",
+              "uitleg": "Napoleon pleegde in 1799 een staatsgreep. Hij zette met hulp van het leger de regering af."
+            },
+            {
+              "id": 113,
+              "type": "multiple_choice",
+              "vraag": "Wat was het gevolg van de staatsgreep van Napoleon?",
+              "opties": [
+                "De Verlichting begon",
+                "De Franse Revolutie eindigde",
+                "Lodewijk XVI werd koning",
+                "De Terreur begon"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Met de staatsgreep van Napoleon in 1799 eindigde de Franse Revolutie. Napoleon nam de macht over."
+            },
+            {
+              "id": 114,
+              "type": "multiple_choice",
+              "vraag": "Hoe kwam Napoleon aan de macht?",
+              "opties": [
+                "Hij werd gekozen door het volk",
+                "Hij erfde de troon van Lodewijk XVI",
+                "Hij zette met hulp van het leger de regering af",
+                "Hij werd benoemd door het parlement"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Napoleon pleegde een staatsgreep: hij zette met hulp van het leger de regering af. Dit was geen democratische machtsovername."
+            },
+            {
+              "id": 115,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over Napoleon Bonaparte zijn juist?",
+              "opties": [
+                "Hij was generaal in het Franse leger",
+                "Hij pleegde een staatsgreep in 1799",
+                "Hij leidde de Terreur met speciale rechtbanken",
+                "Met zijn staatsgreep eindigde de Franse Revolutie",
+                "Hij zette de regering af met hulp van het leger"
+              ],
+              "uitleg": "Napoleon was generaal, pleegde in 1799 een staatsgreep met het leger, en daarmee eindigde de Franse Revolutie. De Terreur met speciale rechtbanken hoort bij Robespierre, niet bij Napoleon.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 8,
+      "leerdoel_titel": "Tijdlijn",
+      "paragraaf": "4.1 en 4.3",
+      "uitleg_tekst": "In dit leerdoel oefen je met de belangrijkste gebeurtenissen uit de 18e eeuw: van de Tijd van pruiken en revoluties tot de staatsgreep van Napoleon. Je leert wanneer deze gebeurtenissen plaatsvonden en in welke volgorde.",
+      "subdoelen": [
+        {
+          "subdoel_id": "8.1",
+          "subdoel_titel": "1700-1800 Tijd van pruiken en revoluties",
+          "vragen": [
+            {
+              "id": 116,
+              "type": "multiple_choice",
+              "vraag": "Welke periode wordt de 'Tijd van pruiken en revoluties' genoemd?",
+              "opties": [
+                "1600-1700",
+                "1700-1800",
+                "1750-1850",
+                "1800-1900"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De Tijd van pruiken en revoluties is het zevende tijdvak en beslaat de periode 1700-1800, oftewel de 18e eeuw."
+            },
+            {
+              "id": 117,
+              "type": "multiple_choice",
+              "vraag": "Welk tijdvak is de Tijd van pruiken en revoluties?",
+              "opties": [
+                "Het vijfde tijdvak",
+                "Het zesde tijdvak",
+                "Het zevende tijdvak",
+                "Het achtste tijdvak"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Tijd van pruiken en revoluties is het zevende tijdvak in de tijdvakkenindeling."
+            },
+            {
+              "id": 118,
+              "type": "invullen",
+              "vraag": "Pruiken waren in de 18e eeuw een ___.",
+              "juiste_antwoord": "statussymbool",
+              "uitleg": "In de 18e eeuw waren pruiken een statussymbool. Hoe groter en mooier de pruik, hoe belangrijker je was."
+            },
+            {
+              "id": 119,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke kenmerken horen bij de Tijd van pruiken en revoluties (1700-1800)? Kies alle juiste antwoorden.",
+              "opties": [
+                "Pruiken als statussymbool",
+                "De Verlichting ontstond",
+                "De Nederlandse economie groeide sterk",
+                "De Nederlandse economie ging achteruit"
+              ],
+              "uitleg": "In de 18e eeuw waren pruiken een statussymbool, ontstond de Verlichting en ging de Nederlandse economie achteruit. De economie groeide dus niet.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 120,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste chronologische volgorde.",
+              "opties": [
+                "Bestorming van de Bastille",
+                "Begin van de Encyclopédie",
+                "Lodewijk XVI wordt koning",
+                "Staten-Generaal bijeengeroepen"
+              ],
+              "uitleg": "De juiste volgorde is: Encyclopédie (1751), Lodewijk XVI wordt koning (1774), Staten-Generaal bijeengeroepen (mei 1789), Bestorming Bastille (14 juli 1789).",
+              "juiste_volgorde": [
+                1,
+                2,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.2",
+          "subdoel_titel": "1751 Begin van de Encyclopédie",
+          "vragen": [
+            {
+              "id": 121,
+              "type": "multiple_choice",
+              "vraag": "In welk jaar begon Diderot met het schrijven van de Encyclopédie?",
+              "opties": [
+                "1741",
+                "1751",
+                "1761",
+                "1774"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "In 1751 begonnen Diderot en d'Alembert met de Encyclopédie."
+            },
+            {
+              "id": 122,
+              "type": "multiple_choice",
+              "vraag": "Hoeveel artikelen bevatte de Encyclopédie?",
+              "opties": [
+                "28.000",
+                "52.000",
+                "72.000",
+                "100.000"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Encyclopédie bevatte maar liefst 72.000 artikelen, verdeeld over 28 boeken."
+            },
+            {
+              "id": 123,
+              "type": "invullen",
+              "vraag": "De Encyclopédie werd geschreven door Diderot en ___.",
+              "juiste_antwoord": "d'Alembert",
+              "uitleg": "Denis Diderot en Jean le Rond d'Alembert waren de belangrijkste makers van de Encyclopédie."
+            },
+            {
+              "id": 124,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de Encyclopédie zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "De Encyclopédie bestond uit 28 boeken",
+                "De Encyclopédie verscheen in 1789",
+                "De Encyclopédie bevatte 72.000 artikelen",
+                "Diderot was een van de makers"
+              ],
+              "uitleg": "De Encyclopédie bestond uit 28 boeken met 72.000 artikelen en Diderot was een van de makers. Het werk begon in 1751, niet in 1789.",
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "id": 125,
+              "type": "volgorde",
+              "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
+              "opties": [
+                "Lodewijk XVI wordt koning",
+                "Staatsgreep door Napoleon",
+                "Begin Encyclopédie",
+                "Bestorming van de Bastille"
+              ],
+              "uitleg": "De juiste volgorde is: Encyclopédie (1751), Lodewijk XVI koning (1774), Bestorming Bastille (1789), Staatsgreep Napoleon (1799).",
+              "juiste_volgorde": [
+                2,
+                0,
+                3,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.3",
+          "subdoel_titel": "1774 Lodewijk XVI wordt koning",
+          "vragen": [
+            {
+              "id": 126,
+              "type": "multiple_choice",
+              "vraag": "In welk jaar werd Lodewijk XVI koning van Frankrijk?",
+              "opties": [
+                "1751",
+                "1774",
+                "1789",
+                "1791"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI werd in 1774 koning van Frankrijk."
+            },
+            {
+              "id": 127,
+              "type": "invullen",
+              "vraag": "In 1774 werd ___ koning van Frankrijk.",
+              "juiste_antwoord": "Lodewijk XVI",
+              "uitleg": "Lodewijk XVI (de zestiende) werd in 1774 koning van Frankrijk. Hij zou de laatste absolutistische koning worden."
+            },
+            {
+              "id": 128,
+              "type": "multiple_choice",
+              "vraag": "Hoeveel jaar was Lodewijk XVI al koning toen de Franse Revolutie begon in 1789?",
+              "opties": [
+                "10 jaar",
+                "15 jaar",
+                "20 jaar",
+                "25 jaar"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI werd koning in 1774. De Franse Revolutie begon in 1789, dus was hij 15 jaar koning."
+            },
+            {
+              "id": 129,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste volgorde.",
+              "opties": [
+                "Lodewijk XVI onthoofd",
+                "Lodewijk XVI wordt koning",
+                "Grondwet aangenomen",
+                "Bestorming van de Bastille"
+              ],
+              "uitleg": "De juiste volgorde is: Lodewijk XVI koning (1774), Bestorming Bastille (1789), Grondwet (1791), Lodewijk XVI onthoofd (1793).",
+              "juiste_volgorde": [
+                1,
+                3,
+                2,
+                0
+              ]
+            },
+            {
+              "id": 130,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke gebeurtenissen vonden plaats na het aantreden van Lodewijk XVI als koning in 1774? Kies alle juiste antwoorden.",
+              "opties": [
+                "Begin van de Encyclopédie",
+                "Bestorming van de Bastille",
+                "Staatsgreep door Napoleon",
+                "Onthoofding van Lodewijk XVI"
+              ],
+              "uitleg": "De Encyclopédie begon in 1751, dus voor Lodewijk XVI. De Bastille (1789), Napoleon (1799) en de onthoofding (1793) waren allemaal na 1774.",
+              "juiste_antwoorden": [
+                1,
+                2,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.4",
+          "subdoel_titel": "1789 (mei) Staten-Generaal bijeengeroepen",
+          "vragen": [
+            {
+              "id": 131,
+              "type": "multiple_choice",
+              "vraag": "Waar kwamen de Staten-Generaal in mei 1789 bijeen?",
+              "opties": [
+                "Parijs",
+                "Lyon",
+                "Versailles",
+                "Bordeaux"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Staten-Generaal werden bijeengeroepen in Versailles, het paleis van de koning."
+            },
+            {
+              "id": 132,
+              "type": "multiple_choice",
+              "vraag": "Hoe lang was het geleden dat de Staten-Generaal voor het laatst waren bijeengekomen in 1789?",
+              "opties": [
+                "50 jaar",
+                "100 jaar",
+                "174 jaar",
+                "200 jaar"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Staten-Generaal waren voor het eerst in 174 jaar weer bijeengeroepen."
+            },
+            {
+              "id": 133,
+              "type": "invullen",
+              "vraag": "De Derde Stand weigerde apart te vergaderen en riep de ___ uit.",
+              "juiste_antwoord": "Nationale Vergadering",
+              "uitleg": "De Derde Stand weigerde apart te vergaderen en riep zichzelf uit tot Nationale Vergadering."
+            },
+            {
+              "id": 134,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke gebeurtenissen vonden plaats bij de bijeenkomst van de Staten-Generaal in mei 1789? Kies alle juiste antwoorden.",
+              "opties": [
+                "Drie standen kozen vertegenwoordigers",
+                "De Derde Stand weigerde apart te vergaderen",
+                "De Bastille werd bestormd",
+                "De Eed op de kaatsbaan werd afgelegd"
+              ],
+              "uitleg": "Bij de Staten-Generaal kozen drie standen vertegenwoordigers, weigerde de Derde Stand apart te vergaderen en werd de Eed op de kaatsbaan afgelegd. De Bastille werd pas op 14 juli bestormd.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 135,
+              "type": "volgorde",
+              "vraag": "Zet de gebeurtenissen van 1789 in de juiste volgorde.",
+              "opties": [
+                "Opstand sloeg over naar platteland",
+                "Staten-Generaal bijeengeroepen",
+                "Eed op de kaatsbaan",
+                "Bestorming van de Bastille"
+              ],
+              "uitleg": "Eerst de Staten-Generaal (mei), dan de Eed op de kaatsbaan (juni), dan de Bestorming van de Bastille (14 juli), waarna de opstand oversloeg naar het platteland.",
+              "juiste_volgorde": [
+                1,
+                2,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.5",
+          "subdoel_titel": "1789 (14 juli) Bestorming van de Bastille",
+          "vragen": [
+            {
+              "id": 136,
+              "type": "multiple_choice",
+              "vraag": "Op welke datum werd de Bastille bestormd?",
+              "opties": [
+                "1 mei 1789",
+                "14 juni 1789",
+                "14 juli 1789",
+                "21 januari 1789"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Bastille werd bestormd op 14 juli 1789. Deze datum geldt als het begin van de Franse Revolutie."
+            },
+            {
+              "id": 137,
+              "type": "invullen",
+              "vraag": "De Bestorming van de Bastille vond plaats in de stad ___.",
+              "juiste_antwoord": "Parijs",
+              "uitleg": "De Bastille was een gevangenis in Parijs. De bestorming ervan was het startschot van de Franse Revolutie."
+            },
+            {
+              "id": 138,
+              "type": "multiple_choice",
+              "vraag": "Wat wordt beschouwd als het begin van de Franse Revolutie?",
+              "opties": [
+                "De bijeenkomst van de Staten-Generaal",
+                "De Eed op de kaatsbaan",
+                "De Bestorming van de Bastille",
+                "De onthoofding van Lodewijk XVI"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Bestorming van de Bastille op 14 juli 1789 geldt als het begin van de Franse Revolutie."
+            },
+            {
+              "id": 139,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de Bestorming van de Bastille zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "Het vond plaats op 14 juli 1789",
+                "Het was het begin van de Franse Revolutie",
+                "De opstand bleef beperkt tot Parijs",
+                "De opstand sloeg over naar het platteland"
+              ],
+              "uitleg": "De Bastille werd bestormd op 14 juli 1789, het was het begin van de Franse Revolutie en de opstand sloeg daarna over naar het platteland.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 140,
+              "type": "volgorde",
+              "vraag": "Zet deze gebeurtenissen in de juiste chronologische volgorde.",
+              "opties": [
+                "Republiek uitgeroepen",
+                "Bestorming van de Bastille",
+                "Grondwet aangenomen",
+                "Oorlog met Oostenrijk en Pruisen"
+              ],
+              "uitleg": "De juiste volgorde is: Bestorming Bastille (1789), Grondwet (1791), Oorlog met Oostenrijk en Pruisen (1792), Republiek uitgeroepen (1792).",
+              "juiste_volgorde": [
+                1,
+                2,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.6",
+          "subdoel_titel": "1791 Grondwet aangenomen",
+          "vragen": [
+            {
+              "id": 141,
+              "type": "multiple_choice",
+              "vraag": "In welk jaar nam de Nationale Vergadering een grondwet aan?",
+              "opties": [
+                "1789",
+                "1790",
+                "1791",
+                "1793"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "In 1791 nam de Nationale Vergadering de grondwet aan. Frankrijk werd daarmee een constitutionele monarchie."
+            },
+            {
+              "id": 142,
+              "type": "multiple_choice",
+              "vraag": "Wat voor staatsvorm kreeg Frankrijk na de grondwet van 1791?",
+              "opties": [
+                "Een republiek",
+                "Een constitutionele monarchie",
+                "Een absoluut koninkrijk",
+                "Een dictatuur"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Na de grondwet van 1791 werd Frankrijk een constitutionele monarchie: een koninkrijk waarin de koning zich aan de grondwet moet houden."
+            },
+            {
+              "id": 143,
+              "type": "invullen",
+              "vraag": "Na de grondwet van 1791 was er in Frankrijk ___ kiesrecht.",
+              "juiste_antwoord": "beperkt",
+              "uitleg": "De grondwet van 1791 gaf Frankrijk beperkt kiesrecht. Niet iedereen mocht stemmen."
+            },
+            {
+              "id": 144,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke gevolgen had de grondwet van 1791? Kies alle juiste antwoorden.",
+              "opties": [
+                "Frankrijk werd een constitutionele monarchie",
+                "Iedereen kreeg stemrecht",
+                "Er kwam beperkt kiesrecht",
+                "De koning moest zich aan de grondwet houden"
+              ],
+              "uitleg": "Door de grondwet werd Frankrijk een constitutionele monarchie met beperkt kiesrecht. De koning moest zich aan de grondwet houden. Er was geen algemeen stemrecht.",
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "id": 145,
+              "type": "volgorde",
+              "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
+              "opties": [
+                "Terreur begon",
+                "Grondwet aangenomen",
+                "Lodewijk XVI onthoofd",
+                "Republiek uitgeroepen"
+              ],
+              "uitleg": "De juiste volgorde is: Grondwet (1791), Republiek (1792), Lodewijk XVI onthoofd (1793), Terreur (1793).",
+              "juiste_volgorde": [
+                1,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.7",
+          "subdoel_titel": "1792 Oorlog en republiek",
+          "vragen": [
+            {
+              "id": 146,
+              "type": "multiple_choice",
+              "vraag": "Met welke landen kwam Frankrijk in 1792 in oorlog?",
+              "opties": [
+                "Engeland en Spanje",
+                "Oostenrijk en Pruisen",
+                "Rusland en Zweden",
+                "Nederland en België"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "In 1792 raakte Frankrijk in oorlog met Oostenrijk en Pruisen."
+            },
+            {
+              "id": 147,
+              "type": "invullen",
+              "vraag": "In 1792 kregen de ___ de meerderheid in de Nationale Vergadering.",
+              "juiste_antwoord": "radicalen",
+              "uitleg": "Door de oorlog en de onrust kregen de radicalen in 1792 de meerderheid. Zij wilden grondige veranderingen."
+            },
+            {
+              "id": 148,
+              "type": "multiple_choice",
+              "vraag": "Welke staatsvorm werd in 1792 in Frankrijk uitgeroepen?",
+              "opties": [
+                "Constitutionele monarchie",
+                "Absoluut koninkrijk",
+                "Republiek",
+                "Keizerrijk"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "In 1792 werd de republiek uitgeroepen. Frankrijk had daarmee geen koning meer als staatshoofd."
+            },
+            {
+              "id": 149,
+              "type": "choose_all_that_apply",
+              "vraag": "Wat gebeurde er allemaal in 1792? Kies alle juiste antwoorden.",
+              "opties": [
+                "Oorlog met Oostenrijk en Pruisen",
+                "De republiek werd uitgeroepen",
+                "Lodewijk XVI werd onthoofd",
+                "De radicalen kregen de meerderheid"
+              ],
+              "uitleg": "In 1792 brak de oorlog uit, kregen de radicalen de meerderheid en werd de republiek uitgeroepen. De onthoofding van Lodewijk XVI was in 1793.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 150,
+              "type": "volgorde",
+              "vraag": "Zet deze vier veranderingen in de Franse staatsvorm in de juiste volgorde.",
+              "opties": [
+                "Napoleon pleegt staatsgreep",
+                "Republiek uitgeroepen",
+                "Constitutionele monarchie",
+                "Robespierre aan de macht"
+              ],
+              "uitleg": "De juiste volgorde is: constitutionele monarchie (1791), republiek (1792), Robespierre aan de macht (1793), staatsgreep Napoleon (1799).",
+              "juiste_volgorde": [
+                2,
+                1,
+                3,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.8",
+          "subdoel_titel": "1793 Onthoofding Lodewijk XVI en Terreur",
+          "vragen": [
+            {
+              "id": 151,
+              "type": "multiple_choice",
+              "vraag": "Op welke datum werd Lodewijk XVI onthoofd?",
+              "opties": [
+                "14 juli 1792",
+                "21 januari 1793",
+                "1 mei 1793",
+                "28 juli 1794"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Lodewijk XVI werd op 21 januari 1793 onthoofd met de guillotine."
+            },
+            {
+              "id": 152,
+              "type": "invullen",
+              "vraag": "Lodewijk XVI werd onthoofd met de ___.",
+              "juiste_antwoord": "guillotine",
+              "uitleg": "De guillotine was het instrument waarmee Lodewijk XVI op 21 januari 1793 werd onthoofd."
+            },
+            {
+              "id": 153,
+              "type": "multiple_choice",
+              "vraag": "Wie kwam in 1793 aan de macht en begon de Terreur?",
+              "opties": [
+                "Napoleon",
+                "Lodewijk XVI",
+                "Robespierre",
+                "Diderot"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Robespierre en de radicalen kwamen in 1793 aan de macht en begonnen de periode van de Terreur."
+            },
+            {
+              "id": 154,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over 1793 zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "Lodewijk XVI werd onthoofd",
+                "Robespierre kwam aan de macht",
+                "De Terreur begon",
+                "Napoleon pleegde een staatsgreep"
+              ],
+              "uitleg": "In 1793 werd Lodewijk XVI onthoofd, kwam Robespierre aan de macht en begon de Terreur. Napoleons staatsgreep was pas in 1799.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ]
+            },
+            {
+              "id": 155,
+              "type": "volgorde",
+              "vraag": "Zet de volgende gebeurtenissen in de juiste volgorde.",
+              "opties": [
+                "Robespierre onthoofd",
+                "Lodewijk XVI onthoofd",
+                "Staatsgreep Napoleon",
+                "Terreur begon"
+              ],
+              "uitleg": "De juiste volgorde is: Lodewijk XVI onthoofd (jan 1793), Terreur begon (1793), Robespierre onthoofd (1794), Staatsgreep Napoleon (1799).",
+              "juiste_volgorde": [
+                1,
+                3,
+                0,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.9",
+          "subdoel_titel": "1794 Val van Robespierre",
+          "vragen": [
+            {
+              "id": 156,
+              "type": "multiple_choice",
+              "vraag": "Wat gebeurde er in 1794 met Robespierre?",
+              "opties": [
+                "Hij werd koning",
+                "Hij vluchtte naar Engeland",
+                "Hij werd gearresteerd en onthoofd",
+                "Hij pleegde een staatsgreep"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "In 1794 werd Robespierre zelf gearresteerd en onthoofd. Daarmee eindigde de Terreur."
+            },
+            {
+              "id": 157,
+              "type": "invullen",
+              "vraag": "Na de val van Robespierre in 1794 volgden ___ regeringen.",
+              "juiste_antwoord": "gematigde",
+              "uitleg": "Na de val van Robespierre kwamen er gematigde regeringen aan de macht, die voor beperkte veranderingen waren."
+            },
+            {
+              "id": 158,
+              "type": "multiple_choice",
+              "vraag": "In welk jaar eindigde de Terreur?",
+              "opties": [
+                "1792",
+                "1793",
+                "1794",
+                "1799"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De Terreur eindigde in 1794 toen Robespierre werd gearresteerd en onthoofd."
+            },
+            {
+              "id": 159,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de val van Robespierre zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "Robespierre werd gearresteerd",
+                "Robespierre werd onthoofd",
+                "Er kwamen radicale regeringen",
+                "Er kwamen gematigde regeringen"
+              ],
+              "uitleg": "Robespierre werd gearresteerd en onthoofd in 1794. Daarna kwamen er gematigde regeringen aan de macht, geen radicale.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 160,
+              "type": "volgorde",
+              "vraag": "Zet de laatste fase van de Franse Revolutie in de juiste volgorde.",
+              "opties": [
+                "Staatsgreep door Napoleon",
+                "Gematigde regeringen",
+                "Robespierre gearresteerd en onthoofd",
+                "Terreur onder Robespierre"
+              ],
+              "uitleg": "De juiste volgorde is: Terreur (1793), Robespierre onthoofd (1794), gematigde regeringen (1794-1799), staatsgreep Napoleon (1799).",
+              "juiste_volgorde": [
+                3,
+                2,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "subdoel_id": "8.10",
+          "subdoel_titel": "1799 Staatsgreep door Napoleon",
+          "vragen": [
+            {
+              "id": 161,
+              "type": "multiple_choice",
+              "vraag": "In welk jaar pleegde Napoleon Bonaparte een staatsgreep?",
+              "opties": [
+                "1793",
+                "1794",
+                "1799",
+                "1800"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Napoleon Bonaparte pleegde in 1799 een staatsgreep en nam de macht over in Frankrijk."
+            },
+            {
+              "id": 162,
+              "type": "invullen",
+              "vraag": "De staatsgreep door Napoleon in 1799 wordt gezien als het einde van de ___.",
+              "juiste_antwoord": "Franse Revolutie",
+              "uitleg": "De staatsgreep van Napoleon in 1799 wordt beschouwd als het einde van de Franse Revolutie."
+            },
+            {
+              "id": 163,
+              "type": "multiple_choice",
+              "vraag": "Wie maakte een einde aan de Franse Revolutie door een staatsgreep?",
+              "opties": [
+                "Robespierre",
+                "Lodewijk XVI",
+                "Diderot",
+                "Napoleon Bonaparte"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Napoleon Bonaparte maakte met zijn staatsgreep in 1799 een einde aan de Franse Revolutie."
+            },
+            {
+              "id": 164,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de staatsgreep van Napoleon zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "De staatsgreep was in 1799",
+                "Napoleon beeindigde de Franse Revolutie",
+                "Napoleon werd meteen keizer",
+                "Napoleon heette Bonaparte"
+              ],
+              "uitleg": "Napoleon Bonaparte pleegde in 1799 een staatsgreep die de Franse Revolutie beeindigde. Hij werd niet meteen keizer; dat gebeurde pas later in 1804.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 165,
+              "type": "volgorde",
+              "vraag": "Zet alle hoofdgebeurtenissen van de Franse Revolutie in de juiste volgorde.",
+              "opties": [
+                "Staatsgreep door Napoleon",
+                "Bestorming van de Bastille",
+                "Lodewijk XVI onthoofd",
+                "Grondwet aangenomen"
+              ],
+              "uitleg": "De juiste volgorde is: Bestorming Bastille (1789), Grondwet (1791), Lodewijk XVI onthoofd (1793), Staatsgreep Napoleon (1799).",
+              "juiste_volgorde": [
+                1,
+                3,
+                2,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 9,
+      "leerdoel_titel": "Begrippen",
+      "paragraaf": "4.1 en 4.3",
+      "uitleg_tekst": "In dit leerdoel oefen je met de belangrijkste begrippen uit paragraaf 4.1 (De Verlichting) en paragraaf 4.3 (De Franse Revolutie). Je leert wat elk begrip betekent en kunt de begrippen van elkaar onderscheiden.",
+      "subdoelen": [
+        {
+          "subdoel_id": "9.1",
+          "subdoel_titel": "Begrippen paragraaf 4.1",
+          "vragen": [
+            {
+              "id": 166,
+              "type": "multiple_choice",
+              "vraag": "Wat is een atheist?",
+              "opties": [
+                "Iemand die in meerdere goden gelooft",
+                "Iemand die niet in een god gelooft",
+                "Iemand die alleen in de wetenschap gelooft",
+                "Iemand die rationeel denkt"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Een atheist is iemand die niet in een god gelooft."
+            },
+            {
+              "id": 167,
+              "type": "invullen",
+              "vraag": "De theorie die de macht van de overheid verdeelt in wetgevende, uitvoerende en rechterlijke macht heet de ___ (of trias politica).",
+              "juiste_antwoord": "driemachtenleer",
+              "uitleg": "De driemachtenleer (trias politica) verdeelt de overheidsmacht in drie delen: wetgevende, uitvoerende en rechterlijke macht."
+            },
+            {
+              "id": 168,
+              "type": "multiple_choice",
+              "vraag": "Wat is een rechtsstaat?",
+              "opties": [
+                "Een staat met een rechtse regering",
+                "Een staat waarin de koning de wet maakt",
+                "Een staat waarin iedereen zich aan de wet moet houden",
+                "Een staat zonder grondwet"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een rechtsstaat is een staat waarin iedereen zich aan de wet moet houden, ook de overheid zelf."
+            },
+            {
+              "id": 169,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke begrippen horen bij de Verlichting? Kies alle juiste antwoorden.",
+              "opties": [
+                "Rationeel denken",
+                "Mensenrechten",
+                "Staatsgreep",
+                "Standenmaatschappij"
+              ],
+              "uitleg": "Rationeel denken, mensenrechten en standenmaatschappij zijn begrippen uit paragraaf 4.1 over de Verlichting. Een staatsgreep is een begrip uit paragraaf 4.3.",
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ]
+            },
+            {
+              "id": 170,
+              "type": "multiple_choice",
+              "vraag": "Wat is de Verlichting?",
+              "opties": [
+                "Een stroming die het geloof wilde verspreiden",
+                "Een beweging die het gebruik van het verstand wilde bevorderen",
+                "Een politieke partij in de 18e eeuw",
+                "Een wetenschappelijke ontdekking uit 1751"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De Verlichting was een beweging van mensen die het gebruik van het verstand (de rede) wilden bevorderen."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "9.2",
+          "subdoel_titel": "Begrippen paragraaf 4.3",
+          "vragen": [
+            {
+              "id": 171,
+              "type": "multiple_choice",
+              "vraag": "Wat is een constitutionele monarchie?",
+              "opties": [
+                "Een land zonder koning",
+                "Een koninkrijk waarin de koning absolute macht heeft",
+                "Een koninkrijk waarin de koning zich aan de grondwet moet houden",
+                "Een republiek met een gekozen president"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een constitutionele monarchie is een koninkrijk waarin de koning zich moet houden aan de grondwet."
+            },
+            {
+              "id": 172,
+              "type": "invullen",
+              "vraag": "Iemand die voor grondige veranderingen is, noem je ___.",
+              "juiste_antwoord": "radicaal",
+              "uitleg": "Radicaal betekent dat je voor grondige veranderingen bent. Het tegenovergestelde is gematigd."
+            },
+            {
+              "id": 173,
+              "type": "multiple_choice",
+              "vraag": "Wat is een staatsgreep?",
+              "opties": [
+                "Een geleidelijke overgang van macht",
+                "Een democratische verkiezing",
+                "Een plotselinge en gewelddadige overname van de staatsmacht",
+                "Een grondwetswijziging door het parlement"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Een staatsgreep is een plotselinge en gewelddadige overname van de staatsmacht, zoals Napoleon deed in 1799."
+            },
+            {
+              "id": 174,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke combinaties van begrip en betekenis zijn juist? Kies alle juiste antwoorden.",
+              "opties": [
+                "Gematigd = voor beperkte veranderingen",
+                "Radicaal = voor beperkte veranderingen",
+                "Staatsgreep = plotselinge overname van de macht",
+                "Constitutionele monarchie = koninkrijk met grondwet"
+              ],
+              "uitleg": "Gematigd betekent voor beperkte veranderingen (niet radicaal). Een staatsgreep is een plotselinge overname en een constitutionele monarchie is een koninkrijk met grondwet.",
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ]
+            },
+            {
+              "id": 175,
+              "type": "invullen",
+              "vraag": "Iemand die voor beperkte veranderingen is, noem je ___.",
+              "juiste_antwoord": "gematigd",
+              "uitleg": "Gematigd betekent dat je voor beperkte veranderingen bent. Het tegenovergestelde is radicaal."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
