@@ -69,19 +69,14 @@
               "id": 5,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
-              "opties": [
-                "Velen volgen het voorbeeld van Lodewijk XIV",
-                "Aanzienlijke mannen tonen hun rijkdom met pruiken",
-                "De 18e eeuw staat bekend als de Pruikentijd",
-                "Lodewijk XIV draagt een enorme pruik om zijn kaalheid te verbergen"
-              ],
-              "juiste_volgorde": [
-                "Lodewijk XIV draagt een enorme pruik om zijn kaalheid te verbergen",
-                "Velen volgen het voorbeeld van Lodewijk XIV",
-                "Aanzienlijke mannen tonen hun rijkdom met pruiken",
-                "De 18e eeuw staat bekend als de Pruikentijd"
-              ],
-              "uitleg": "Eerst begon Lodewijk XIV zelf met het dragen van een pruik, daarna volgden anderen zijn voorbeeld, waardoor het een statussymbool werd en de hele eeuw ernaar vernoemd werd."
+              "opties": {
+                "A": "Aanzienlijke mannen tonen hun rijkdom met pruiken",
+                "B": "Velen volgen het voorbeeld van Lodewijk XIV",
+                "C": "De 18e eeuw staat bekend als de Pruikentijd",
+                "D": "Lodewijk XIV draagt een enorme pruik om zijn kaalheid te verbergen"
+              },
+              "uitleg": "Eerst begon Lodewijk XIV zelf met het dragen van een pruik, daarna volgden anderen zijn voorbeeld, waardoor het een statussymbool werd en de hele eeuw ernaar vernoemd werd.",
+              "juiste_antwoord": "1:D, 2:B, 3:A, 4:C"
             }
           ]
         },
@@ -144,19 +139,14 @@
               "id": 10,
               "type": "volgorde",
               "vraag": "Zet de volgende ontwikkelingen in de juiste tijdsvolgorde.",
-              "opties": [
-                "Werkloosheid en armoede groeiden in Nederland",
-                "Nederland had een economische voorsprong (Gouden Eeuw)",
-                "Engeland en Schotland werden samen Groot-Brittannie",
-                "Nederland verloor zijn economische voorsprong"
-              ],
-              "juiste_volgorde": [
-                "Nederland had een economische voorsprong (Gouden Eeuw)",
-                "Nederland verloor zijn economische voorsprong",
-                "Engeland en Schotland werden samen Groot-Brittannie",
-                "Werkloosheid en armoede groeiden in Nederland"
-              ],
-              "uitleg": "Nederland had eerst een economische voorsprong in de Gouden Eeuw (17e eeuw). Omstreeks 1700 verloor Nederland die voorsprong. In 1707 werden Engeland en Schotland Groot-Brittannie. In de loop van de 18e eeuw groeiden werkloosheid en armoede."
+              "opties": {
+                "A": "Werkloosheid en armoede groeiden in Nederland",
+                "B": "Engeland en Schotland werden samen Groot-Brittannie",
+                "C": "Nederland had een economische voorsprong (Gouden Eeuw)",
+                "D": "Nederland verloor zijn economische voorsprong"
+              },
+              "uitleg": "Nederland had eerst een economische voorsprong in de Gouden Eeuw (17e eeuw). Omstreeks 1700 verloor Nederland die voorsprong. In 1707 werden Engeland en Schotland Groot-Brittannie. In de loop van de 18e eeuw groeiden werkloosheid en armoede.",
+              "juiste_antwoord": "1:C, 2:D, 3:B, 4:A"
             }
           ]
         }
@@ -227,17 +217,13 @@
               "id": 15,
               "type": "volgorde",
               "vraag": "Zet de drie standen in volgorde van klein naar groot (percentage van de bevolking).",
-              "opties": [
-                "Derde stand (boeren en burgers)",
-                "Tweede stand (adel)",
-                "Eerste stand (geestelijkheid)"
-              ],
-              "juiste_volgorde": [
-                "Eerste stand (geestelijkheid)",
-                "Tweede stand (adel)",
-                "Derde stand (boeren en burgers)"
-              ],
-              "uitleg": "De eerste stand (geestelijkheid) was het kleinst met 1% van de bevolking. De tweede stand (adel) was iets groter met 1,5%. De derde stand (boeren en burgers) was verreweg het grootst met 97,5%."
+              "opties": {
+                "A": "Tweede stand (adel)",
+                "B": "Eerste stand (geestelijkheid)",
+                "C": "Derde stand (boeren en burgers)"
+              },
+              "uitleg": "De eerste stand (geestelijkheid) was het kleinst met 1% van de bevolking. De tweede stand (adel) was iets groter met 1,5%. De derde stand (boeren en burgers) was verreweg het grootst met 97,5%.",
+              "juiste_antwoord": "1:B, 2:A, 3:C"
             }
           ]
         },
@@ -300,17 +286,13 @@
               "id": 20,
               "type": "volgorde",
               "vraag": "Zet de drie standen in volgorde van wie het meeste land bezat naar het minste land.",
-              "opties": [
-                "Eerste stand (geestelijkheid) - 10% van het land",
-                "Tweede stand (adel) - 20% van het land",
-                "Derde stand (boeren en burgers) - 70% van het land"
-              ],
-              "juiste_volgorde": [
-                "Derde stand (boeren en burgers) - 70% van het land",
-                "Tweede stand (adel) - 20% van het land",
-                "Eerste stand (geestelijkheid) - 10% van het land"
-              ],
-              "uitleg": "De derde stand bezat het meeste land (70%), gevolgd door de adel (20%) en de geestelijkheid (10%). Ondanks hun grote landbezit moest de derde stand alle belasting betalen."
+              "opties": {
+                "A": "Tweede stand (adel) - 20% van het land",
+                "B": "Derde stand (boeren en burgers) - 70% van het land",
+                "C": "Eerste stand (geestelijkheid) - 10% van het land"
+              },
+              "uitleg": "De derde stand bezat het meeste land (70%), gevolgd door de adel (20%) en de geestelijkheid (10%). Ondanks hun grote landbezit moest de derde stand alle belasting betalen.",
+              "juiste_antwoord": "1:B, 2:A, 3:C"
             }
           ]
         }
@@ -381,19 +363,14 @@
               "id": 25,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
-              "opties": [
-                "De Verlichting ontstaat in de 18e eeuw",
-                "Verlichte denkers richten genootschappen op zoals Felix Meritis",
-                "De wetenschappelijke revolutie in de 17e eeuw",
-                "Het idee ontstaat dat mensen alles kunnen begrijpen met de rede"
-              ],
-              "juiste_volgorde": [
-                "De wetenschappelijke revolutie in de 17e eeuw",
-                "Het idee ontstaat dat mensen alles kunnen begrijpen met de rede",
-                "De Verlichting ontstaat in de 18e eeuw",
-                "Verlichte denkers richten genootschappen op zoals Felix Meritis"
-              ],
-              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen ontstond het idee van rationeel denken, vervolgens kwam de Verlichting als beweging op en ten slotte werden genootschappen opgericht."
+              "opties": {
+                "A": "Het idee ontstaat dat mensen alles kunnen begrijpen met de rede",
+                "B": "De Verlichting ontstaat in de 18e eeuw",
+                "C": "De wetenschappelijke revolutie in de 17e eeuw",
+                "D": "Verlichte denkers richten genootschappen op zoals Felix Meritis"
+              },
+              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen ontstond het idee van rationeel denken, vervolgens kwam de Verlichting als beweging op en ten slotte werden genootschappen opgericht.",
+              "juiste_antwoord": "1:C, 2:A, 3:B, 4:D"
             }
           ]
         },
@@ -456,19 +433,14 @@
               "id": 30,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste tijdsvolgorde.",
-              "opties": [
-                "Een dominee voorspelt de ondergang van de wereld",
-                "Diderot en d'Alembert beginnen aan de Encyclopedie",
-                "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen",
-                "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen"
-              ],
-              "juiste_volgorde": [
-                "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen",
-                "Diderot en d'Alembert beginnen aan de Encyclopedie",
-                "Een dominee voorspelt de ondergang van de wereld",
-                "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen"
-              ],
-              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen begonnen Diderot en d'Alembert aan de Encyclopedie (1751). Later deed een dominee zijn voorspelling en bouwde Eise Eisinga zijn planetarium om die te weerleggen."
+              "opties": {
+                "A": "Diderot en d'Alembert beginnen aan de Encyclopedie",
+                "B": "Een dominee voorspelt de ondergang van de wereld",
+                "C": "Eise Eisinga bouwt een planetarium om de voorspelling te weerleggen",
+                "D": "De wetenschappelijke revolutie leidt tot belangrijke ontdekkingen"
+              },
+              "uitleg": "Eerst kwam de wetenschappelijke revolutie (17e eeuw), toen begonnen Diderot en d'Alembert aan de Encyclopedie (1751). Later deed een dominee zijn voorspelling en bouwde Eise Eisinga zijn planetarium om die te weerleggen.",
+              "juiste_antwoord": "1:D, 2:A, 3:B, 4:C"
             }
           ]
         }
@@ -539,17 +511,13 @@
               "id": 35,
               "type": "volgorde",
               "vraag": "Zet de ontwikkeling van het denken over God in de juiste volgorde, van het oudste naar het nieuwste idee.",
-              "opties": [
-                "God grijpt voortdurend in en rampen zijn Zijn straf",
-                "God heeft de wereld geschapen als een klokkenmaker, maar bemoeit zich er niet meer mee",
-                "Sommige denkers geloven helemaal niet meer in God (atheisme)"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2
-              ],
-              "uitleg": "Eerst geloofden mensen dat God overal ingreep. Vervolgens ontstond het idee (onder andere van Voltaire) dat God de wereld had geschapen maar zich er niet meer mee bemoeide. Sommige denkers gingen nog een stap verder en werden atheist."
+              "opties": {
+                "A": "God heeft de wereld geschapen als een klokkenmaker, maar bemoeit zich er niet meer mee",
+                "B": "God grijpt voortdurend in en rampen zijn Zijn straf",
+                "C": "Sommige denkers geloven helemaal niet meer in God (atheisme)"
+              },
+              "uitleg": "Eerst geloofden mensen dat God overal ingreep. Vervolgens ontstond het idee (onder andere van Voltaire) dat God de wereld had geschapen maar zich er niet meer mee bemoeide. Sommige denkers gingen nog een stap verder en werden atheist.",
+              "juiste_antwoord": "1:B, 2:A, 3:C"
             }
           ]
         },
@@ -612,17 +580,13 @@
               "id": 40,
               "type": "volgorde",
               "vraag": "Zet deze begrippen in volgorde van beperkt naar uitgebreid als het gaat om de rechten van burgers.",
-              "opties": [
-                "Standenmaatschappij: rechten afhankelijk van je geboorte",
-                "Rechtsstaat: de wet geldt voor iedereen gelijk",
-                "Mensenrechten: alle mensen hebben recht op vrijheid en gelijkheid"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2
-              ],
-              "uitleg": "In de standenmaatschappij hingen je rechten af van de stand waarin je geboren was. In een rechtsstaat geldt de wet gelijk voor iedereen. Mensenrechten gaan nog verder: alle mensen hebben fundamentele rechten zoals vrijheid van godsdienst en meningsuiting."
+              "opties": {
+                "A": "Rechtsstaat: de wet geldt voor iedereen gelijk",
+                "B": "Standenmaatschappij: rechten afhankelijk van je geboorte",
+                "C": "Mensenrechten: alle mensen hebben recht op vrijheid en gelijkheid"
+              },
+              "uitleg": "In de standenmaatschappij hingen je rechten af van de stand waarin je geboren was. In een rechtsstaat geldt de wet gelijk voor iedereen. Mensenrechten gaan nog verder: alle mensen hebben fundamentele rechten zoals vrijheid van godsdienst en meningsuiting.",
+              "juiste_antwoord": "1:B, 2:A, 3:C"
             }
           ]
         },
@@ -685,17 +649,13 @@
               "id": 45,
               "type": "volgorde",
               "vraag": "Zet het wetgevende proces in de juiste volgorde volgens de driemachtenleer van Montesquieu.",
-              "opties": [
-                "Het parlement maakt een nieuwe wet",
-                "De regering voert de wet uit",
-                "Onafhankelijke rechters beoordelen of de wet wordt nageleefd"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2
-              ],
-              "uitleg": "Volgens de driemachtenleer maakt het parlement (wetgevende macht) de wetten, voert de regering (uitvoerende macht) ze uit, en controleren onafhankelijke rechters (rechterlijke macht) of de wetten worden nageleefd."
+              "opties": {
+                "A": "Onafhankelijke rechters beoordelen of de wet wordt nageleefd",
+                "B": "De regering voert de wet uit",
+                "C": "Het parlement maakt een nieuwe wet"
+              },
+              "uitleg": "Volgens de driemachtenleer maakt het parlement (wetgevende macht) de wetten, voert de regering (uitvoerende macht) ze uit, en controleren onafhankelijke rechters (rechterlijke macht) of de wetten worden nageleefd.",
+              "juiste_antwoord": "1:C, 2:B, 3:A"
             }
           ]
         }
@@ -766,19 +726,14 @@
               "id": 50,
               "type": "volgorde",
               "vraag": "Zet de gebeurtenissen in de aanloop naar de Franse Revolutie in de juiste volgorde.",
-              "opties": [
-                "Lodewijk XVI kan de rente niet meer betalen",
-                "De Staten-Generaal komen bijeen in Versailles",
-                "De derde stand roept zichzelf uit tot Nationale Vergadering",
-                "De Eed op de Kaatsbaan: pas uit elkaar als er een grondwet is"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "uitleg": "Eerst had Lodewijk XVI geldproblemen (1788), toen riep hij de Staten-Generaal bijeen (mei 1789). Daar weigerde de derde stand apart te vergaderen en riep zichzelf uit tot Nationale Vergadering. Toen de koning hun zaal sloot, weken ze uit naar de kaatsbaan en legden daar hun beroemde eed af."
+              "opties": {
+                "A": "De Staten-Generaal komen bijeen in Versailles",
+                "B": "De Eed op de Kaatsbaan: pas uit elkaar als er een grondwet is",
+                "C": "Lodewijk XVI kan de rente niet meer betalen",
+                "D": "De derde stand roept zichzelf uit tot Nationale Vergadering"
+              },
+              "uitleg": "Eerst had Lodewijk XVI geldproblemen (1788), toen riep hij de Staten-Generaal bijeen (mei 1789). Daar weigerde de derde stand apart te vergaderen en riep zichzelf uit tot Nationale Vergadering. Toen de koning hun zaal sloot, weken ze uit naar de kaatsbaan en legden daar hun beroemde eed af.",
+              "juiste_antwoord": "1:C, 2:A, 3:D, 4:B"
             }
           ]
         },
@@ -841,19 +796,14 @@
               "id": 55,
               "type": "volgorde",
               "vraag": "Zet de gebeurtenissen rond het begin van de Franse Revolutie in de juiste volgorde.",
-              "opties": [
-                "De Eed op de Kaatsbaan",
-                "De bestorming van de Bastille",
-                "Opstand slaat over naar het platteland",
-                "Boeren vermoorden edelen en geestelijken"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "uitleg": "Eerst legde de derde stand de Eed op de Kaatsbaan af. Daarna volgde op 14 juli 1789 de bestorming van de Bastille. De opstand sloeg vervolgens over naar het platteland, waar boeren edelen en geestelijken vermoordden."
+              "opties": {
+                "A": "De Eed op de Kaatsbaan",
+                "B": "Opstand slaat over naar het platteland",
+                "C": "De bestorming van de Bastille",
+                "D": "Boeren vermoorden edelen en geestelijken"
+              },
+              "uitleg": "Eerst legde de derde stand de Eed op de Kaatsbaan af. Daarna volgde op 14 juli 1789 de bestorming van de Bastille. De opstand sloeg vervolgens over naar het platteland, waar boeren edelen en geestelijken vermoordden.",
+              "juiste_antwoord": "1:A, 2:C, 3:B, 4:D"
             }
           ]
         }
@@ -924,19 +874,14 @@
               "id": 60,
               "type": "volgorde",
               "vraag": "Zet de politieke veranderingen in de juiste chronologische volgorde.",
-              "opties": [
-                "Standsverschillen worden afgeschaft",
-                "Grondwet met constitutionele monarchie",
-                "Oorlog met Oostenrijk en Pruisen",
-                "De republiek wordt uitgeroepen"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2,
-                3
-              ],
-              "uitleg": "Eerst schafte de Nationale Vergadering de standsverschillen af. In 1791 kwam de grondwet met een constitutionele monarchie. In 1792 brak oorlog uit met Oostenrijk en Pruisen, waarna de radicalen de republiek uitriepen."
+              "opties": {
+                "A": "Oorlog met Oostenrijk en Pruisen",
+                "B": "De republiek wordt uitgeroepen",
+                "C": "Standsverschillen worden afgeschaft",
+                "D": "Grondwet met constitutionele monarchie"
+              },
+              "uitleg": "Eerst schafte de Nationale Vergadering de standsverschillen af. In 1791 kwam de grondwet met een constitutionele monarchie. In 1792 brak oorlog uit met Oostenrijk en Pruisen, waarna de radicalen de republiek uitriepen.",
+              "juiste_antwoord": "1:C, 2:D, 3:A, 4:B"
             }
           ]
         },
@@ -1000,21 +945,15 @@
               "id": 65,
               "type": "volgorde",
               "vraag": "Zet de laatste fase van de Franse Revolutie in de juiste volgorde.",
-              "opties": [
-                "Lodewijk XVI wordt onthoofd",
-                "Robespierre regeert met terreur",
-                "Robespierre wordt zelf onthoofd",
-                "Gematigde regeringen besturen Frankrijk",
-                "Napoleon pleegt een staatsgreep"
-              ],
-              "juiste_volgorde": [
-                0,
-                1,
-                2,
-                3,
-                4
-              ],
-              "uitleg": "Na de onthoofding van Lodewijk XVI (1793) nam Robespierre de macht over en regeerde met terreur. In 1794 werd Robespierre zelf gearresteerd en onthoofd. Daarna volgden gematigde regeringen, totdat Napoleon in 1799 een staatsgreep pleegde en de revolutie beeindigde."
+              "opties": {
+                "A": "Robespierre wordt zelf onthoofd",
+                "B": "Gematigde regeringen besturen Frankrijk",
+                "C": "Robespierre regeert met terreur",
+                "D": "Napoleon pleegt een staatsgreep",
+                "E": "Lodewijk XVI wordt onthoofd"
+              },
+              "uitleg": "Na de onthoofding van Lodewijk XVI (1793) nam Robespierre de macht over en regeerde met terreur. In 1794 werd Robespierre zelf gearresteerd en onthoofd. Daarna volgden gematigde regeringen, totdat Napoleon in 1799 een staatsgreep pleegde en de revolutie beeindigde.",
+              "juiste_antwoord": "1:E, 2:C, 3:A, 4:B, 5:D"
             }
           ]
         }
@@ -1405,17 +1344,13 @@
               "id": 93,
               "type": "volgorde",
               "vraag": "Zet de drie machten van Montesquieu in de juiste volgorde bij de juiste instelling: parlement, regering, rechters.",
-              "opties": [
-                "Wetgevende macht",
-                "Uitvoerende macht",
-                "Rechterlijke macht"
-              ],
+              "opties": {
+                "A": "Wetgevende macht",
+                "B": "Rechterlijke macht",
+                "C": "Uitvoerende macht"
+              },
               "uitleg": "De wetgevende macht hoort bij het parlement, de uitvoerende macht bij de regering en de rechterlijke macht bij de rechters.",
-              "juiste_volgorde": [
-                0,
-                1,
-                2
-              ]
+              "juiste_antwoord": "1:A, 2:C, 3:B"
             },
             {
               "id": 94,
@@ -1549,21 +1484,15 @@
               "id": 103,
               "type": "volgorde",
               "vraag": "Zet de gebeurtenissen rond Lodewijk XVI in de juiste tijdsvolgorde.",
-              "opties": [
-                "Lodewijk XVI werd koning van Frankrijk",
-                "Hij kon de rente niet meer betalen",
-                "Hij riep de Staten-Generaal bijeen",
-                "Hij werd verdacht van landverraad en gevangengezet",
-                "Hij werd onthoofd met de guillotine"
-              ],
+              "opties": {
+                "A": "Hij werd verdacht van landverraad en gevangengezet",
+                "B": "Hij kon de rente niet meer betalen",
+                "C": "Lodewijk XVI werd koning van Frankrijk",
+                "D": "Hij riep de Staten-Generaal bijeen",
+                "E": "Hij werd onthoofd met de guillotine"
+              },
               "uitleg": "Lodewijk XVI werd koning in 1774, kon in 1788 de rente niet meer betalen, riep in mei 1789 de Staten-Generaal bijeen, werd later verdacht van landverraad en gevangengezet, en werd op 21 januari 1793 onthoofd.",
-              "juiste_volgorde": [
-                0,
-                1,
-                2,
-                3,
-                4
-              ]
+              "juiste_antwoord": "1:C, 2:B, 3:D, 4:A, 5:E"
             },
             {
               "id": 104,
@@ -1807,19 +1736,14 @@
               "id": 120,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste chronologische volgorde.",
-              "opties": [
-                "Bestorming van de Bastille",
-                "Begin van de Encyclopédie",
-                "Lodewijk XVI wordt koning",
-                "Staten-Generaal bijeengeroepen"
-              ],
+              "opties": {
+                "A": "Staten-Generaal bijeengeroepen",
+                "B": "Bestorming van de Bastille",
+                "C": "Lodewijk XVI wordt koning",
+                "D": "Begin van de Encyclopédie"
+              },
               "uitleg": "De juiste volgorde is: Encyclopédie (1751), Lodewijk XVI wordt koning (1774), Staten-Generaal bijeengeroepen (mei 1789), Bestorming Bastille (14 juli 1789).",
-              "juiste_volgorde": [
-                1,
-                2,
-                3,
-                0
-              ]
+              "juiste_antwoord": "1:D, 2:C, 3:A, 4:B"
             }
           ]
         },
@@ -1881,19 +1805,14 @@
               "id": 125,
               "type": "volgorde",
               "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
-              "opties": [
-                "Lodewijk XVI wordt koning",
-                "Staatsgreep door Napoleon",
-                "Begin Encyclopédie",
-                "Bestorming van de Bastille"
-              ],
+              "opties": {
+                "A": "Begin Encyclopédie",
+                "B": "Lodewijk XVI wordt koning",
+                "C": "Staatsgreep door Napoleon",
+                "D": "Bestorming van de Bastille"
+              },
               "uitleg": "De juiste volgorde is: Encyclopédie (1751), Lodewijk XVI koning (1774), Bestorming Bastille (1789), Staatsgreep Napoleon (1799).",
-              "juiste_volgorde": [
-                2,
-                0,
-                3,
-                1
-              ]
+              "juiste_antwoord": "1:A, 2:B, 3:D, 4:C"
             }
           ]
         },
@@ -1938,19 +1857,14 @@
               "id": 129,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste volgorde.",
-              "opties": [
-                "Lodewijk XVI onthoofd",
-                "Lodewijk XVI wordt koning",
-                "Grondwet aangenomen",
-                "Bestorming van de Bastille"
-              ],
+              "opties": {
+                "A": "Lodewijk XVI onthoofd",
+                "B": "Lodewijk XVI wordt koning",
+                "C": "Grondwet aangenomen",
+                "D": "Bestorming van de Bastille"
+              },
               "uitleg": "De juiste volgorde is: Lodewijk XVI koning (1774), Bestorming Bastille (1789), Grondwet (1791), Lodewijk XVI onthoofd (1793).",
-              "juiste_volgorde": [
-                1,
-                3,
-                2,
-                0
-              ]
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A"
             },
             {
               "id": 130,
@@ -2029,19 +1943,14 @@
               "id": 135,
               "type": "volgorde",
               "vraag": "Zet de gebeurtenissen van 1789 in de juiste volgorde.",
-              "opties": [
-                "Opstand sloeg over naar platteland",
-                "Staten-Generaal bijeengeroepen",
-                "Eed op de kaatsbaan",
-                "Bestorming van de Bastille"
-              ],
+              "opties": {
+                "A": "Eed op de kaatsbaan",
+                "B": "Opstand sloeg over naar platteland",
+                "C": "Bestorming van de Bastille",
+                "D": "Staten-Generaal bijeengeroepen"
+              },
               "uitleg": "Eerst de Staten-Generaal (mei), dan de Eed op de kaatsbaan (juni), dan de Bestorming van de Bastille (14 juli), waarna de opstand oversloeg naar het platteland.",
-              "juiste_volgorde": [
-                1,
-                2,
-                3,
-                0
-              ]
+              "juiste_antwoord": "1:D, 2:A, 3:C, 4:B"
             }
           ]
         },
@@ -2103,19 +2012,14 @@
               "id": 140,
               "type": "volgorde",
               "vraag": "Zet deze gebeurtenissen in de juiste chronologische volgorde.",
-              "opties": [
-                "Republiek uitgeroepen",
-                "Bestorming van de Bastille",
-                "Grondwet aangenomen",
-                "Oorlog met Oostenrijk en Pruisen"
-              ],
+              "opties": {
+                "A": "Grondwet aangenomen",
+                "B": "Republiek uitgeroepen",
+                "C": "Bestorming van de Bastille",
+                "D": "Oorlog met Oostenrijk en Pruisen"
+              },
               "uitleg": "De juiste volgorde is: Bestorming Bastille (1789), Grondwet (1791), Oorlog met Oostenrijk en Pruisen (1792), Republiek uitgeroepen (1792).",
-              "juiste_volgorde": [
-                1,
-                2,
-                3,
-                0
-              ]
+              "juiste_antwoord": "1:C, 2:A, 3:D, 4:B"
             }
           ]
         },
@@ -2177,19 +2081,14 @@
               "id": 145,
               "type": "volgorde",
               "vraag": "Zet deze gebeurtenissen in de juiste volgorde.",
-              "opties": [
-                "Terreur begon",
-                "Grondwet aangenomen",
-                "Lodewijk XVI onthoofd",
-                "Republiek uitgeroepen"
-              ],
+              "opties": {
+                "A": "Terreur begon",
+                "B": "Lodewijk XVI onthoofd",
+                "C": "Republiek uitgeroepen",
+                "D": "Grondwet aangenomen"
+              },
               "uitleg": "De juiste volgorde is: Grondwet (1791), Republiek (1792), Lodewijk XVI onthoofd (1793), Terreur (1793).",
-              "juiste_volgorde": [
-                1,
-                3,
-                2,
-                0
-              ]
+              "juiste_antwoord": "1:D, 2:C, 3:B, 4:A"
             }
           ]
         },
@@ -2251,19 +2150,14 @@
               "id": 150,
               "type": "volgorde",
               "vraag": "Zet deze vier veranderingen in de Franse staatsvorm in de juiste volgorde.",
-              "opties": [
-                "Napoleon pleegt staatsgreep",
-                "Republiek uitgeroepen",
-                "Constitutionele monarchie",
-                "Robespierre aan de macht"
-              ],
+              "opties": {
+                "A": "Constitutionele monarchie",
+                "B": "Robespierre aan de macht",
+                "C": "Napoleon pleegt staatsgreep",
+                "D": "Republiek uitgeroepen"
+              },
               "uitleg": "De juiste volgorde is: constitutionele monarchie (1791), republiek (1792), Robespierre aan de macht (1793), staatsgreep Napoleon (1799).",
-              "juiste_volgorde": [
-                2,
-                1,
-                3,
-                0
-              ]
+              "juiste_antwoord": "1:A, 2:D, 3:B, 4:C"
             }
           ]
         },
@@ -2325,19 +2219,14 @@
               "id": 155,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen in de juiste volgorde.",
-              "opties": [
-                "Robespierre onthoofd",
-                "Lodewijk XVI onthoofd",
-                "Staatsgreep Napoleon",
-                "Terreur begon"
-              ],
+              "opties": {
+                "A": "Lodewijk XVI onthoofd",
+                "B": "Staatsgreep Napoleon",
+                "C": "Robespierre onthoofd",
+                "D": "Terreur begon"
+              },
               "uitleg": "De juiste volgorde is: Lodewijk XVI onthoofd (jan 1793), Terreur begon (1793), Robespierre onthoofd (1794), Staatsgreep Napoleon (1799).",
-              "juiste_volgorde": [
-                1,
-                3,
-                0,
-                2
-              ]
+              "juiste_antwoord": "1:A, 2:D, 3:C, 4:B"
             }
           ]
         },
@@ -2399,19 +2288,14 @@
               "id": 160,
               "type": "volgorde",
               "vraag": "Zet de laatste fase van de Franse Revolutie in de juiste volgorde.",
-              "opties": [
-                "Staatsgreep door Napoleon",
-                "Gematigde regeringen",
-                "Robespierre gearresteerd en onthoofd",
-                "Terreur onder Robespierre"
-              ],
+              "opties": {
+                "A": "Robespierre gearresteerd en onthoofd",
+                "B": "Staatsgreep door Napoleon",
+                "C": "Gematigde regeringen",
+                "D": "Terreur onder Robespierre"
+              },
               "uitleg": "De juiste volgorde is: Terreur (1793), Robespierre onthoofd (1794), gematigde regeringen (1794-1799), staatsgreep Napoleon (1799).",
-              "juiste_volgorde": [
-                3,
-                2,
-                1,
-                0
-              ]
+              "juiste_antwoord": "1:D, 2:A, 3:C, 4:B"
             }
           ]
         },
@@ -2473,19 +2357,14 @@
               "id": 165,
               "type": "volgorde",
               "vraag": "Zet alle hoofdgebeurtenissen van de Franse Revolutie in de juiste volgorde.",
-              "opties": [
-                "Staatsgreep door Napoleon",
-                "Bestorming van de Bastille",
-                "Lodewijk XVI onthoofd",
-                "Grondwet aangenomen"
-              ],
+              "opties": {
+                "A": "Lodewijk XVI onthoofd",
+                "B": "Staatsgreep door Napoleon",
+                "C": "Bestorming van de Bastille",
+                "D": "Grondwet aangenomen"
+              },
               "uitleg": "De juiste volgorde is: Bestorming Bastille (1789), Grondwet (1791), Lodewijk XVI onthoofd (1793), Staatsgreep Napoleon (1799).",
-              "juiste_volgorde": [
-                1,
-                3,
-                2,
-                0
-              ]
+              "juiste_antwoord": "1:C, 2:D, 3:A, 4:B"
             }
           ]
         }

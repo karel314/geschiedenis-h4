@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'gesch-h4-v2';
+const CACHE_VERSION = 'gesch-h4-v3';
 const ASSETS = [
   './',
   './index.html',
