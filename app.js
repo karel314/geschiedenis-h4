@@ -242,21 +242,19 @@ function setupConfigScreen() {
   const container = document.getElementById('leerdoel-filter');
   container.innerHTML = '';
   for (const ld of db.leerdoelen) {
-    const label = document.createElement('label');
-    label.className = 'leerdoel-cb';
-    label.innerHTML = `
+    const row = document.createElement('div');
+    row.className = 'leerdoel-cb';
+    row.innerHTML = `
       <input type="checkbox" value="${ld.leerdoel_id}">
       <span class="leerdoel-cb-check">&#10003;</span>
       <span class="leerdoel-cb-text">${ld.leerdoel_titel} <span class="leerdoel-cb-par">&sect;${ld.paragraaf}</span></span>
     `;
-    const cb = label.querySelector('input');
-    label.addEventListener('click', (e) => {
-      if (e.target === cb) return;
+    const cb = row.querySelector('input');
+    row.addEventListener('click', () => {
       cb.checked = !cb.checked;
-      label.classList.toggle('checked', cb.checked);
+      row.classList.toggle('checked', cb.checked);
     });
-    cb.addEventListener('change', () => label.classList.toggle('checked', cb.checked));
-    container.appendChild(label);
+    container.appendChild(row);
   }
 }
 
