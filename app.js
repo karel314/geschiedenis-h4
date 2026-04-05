@@ -479,9 +479,15 @@ function submitInvullen(input) {
 }
 
 // ── Volgorde ──
+function getJuisteVolgorde(q) {
+  return q.juiste_antwoord.split(',').map(s => s.trim())
+    .sort((a, b) => parseInt(a) - parseInt(b))
+    .map(s => q.opties[s.split(':')[1].trim()]);
+}
+
 function renderVolgorde(q, container) {
   // Shuffle the options
-  volgordeOrder = [...q.opties];
+  volgordeOrder = Object.values(q.opties);
   // Fisher-Yates shuffle
   for (let i = volgordeOrder.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -534,12 +540,13 @@ function submitVolgorde() {
   if (answered) return;
   answered = true;
   const q = quizQuestions[currentIndex];
-  const isCorrect = volgordeOrder.every((item, i) => item === q.juiste_volgorde[i]);
+  const juisteVolgorde = getJuisteVolgorde(q);
+  const isCorrect = volgordeOrder.every((item, i) => item === juisteVolgorde[i]);
 
   // Color items
   const items = document.querySelectorAll('.volgorde-item');
   items.forEach((item, i) => {
-    if (volgordeOrder[i] === q.juiste_volgorde[i]) item.classList.add('correct-pos');
+    if (volgordeOrder[i] === juisteVolgorde[i]) item.classList.add('correct-pos');
     else item.classList.add('wrong-pos');
     item.querySelectorAll('button').forEach(b => b.disabled = true);
   });
@@ -549,7 +556,7 @@ function submitVolgorde() {
   if (!isCorrect) {
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = 'Juiste volgorde: ' + q.juiste_volgorde.map((s, i) => `${i + 1}. ${s}`).join(' → ');
+    correctDiv.textContent = 'Juiste volgorde: ' + juisteVolgorde.map((s, i) => `${i + 1}. ${s}`).join(' → ');
     correctDiv.style.marginTop = '8px';
     correctDiv.style.fontSize = '0.85rem';
     correctDiv.style.lineHeight = '1.5';
@@ -675,7 +682,7 @@ function showResults() {
       if (q.type === 'multiple_choice') correctText = q.opties[q.juiste_antwoord];
       else if (q.type === 'choose_all_that_apply') correctText = q.juiste_antwoorden.map(i => q.opties[i]).join(', ');
       else if (q.type === 'invullen') correctText = q.juiste_antwoord;
-      else if (q.type === 'volgorde') correctText = q.juiste_volgorde.join(' → ');
+      else if (q.type === 'volgorde') correctText = getJuisteVolgorde(q).map((s, i) => `${i + 1}. ${s}`).join(' → ');
       missed.innerHTML += `
         <div class="missed-item">
           <div class="missed-q">${q.vraag}</div>
