@@ -32,10 +32,15 @@
         <span class="card-title">Voortgang</span>
         <span class="card-desc">Bekijk je scores</span>
       </button>
+      <button class="home-card card-flash" onclick="startAllFlashcards()">
+        <span class="card-icon">&#x1F0CF;</span>
+        <span class="card-title">Alle Flashcards</span>
+        <span class="card-desc">Random volgorde</span>
+      </button>
       <button class="home-card card-flash" onclick="startFlashcards()">
         <span class="card-icon">&#x1F4A1;</span>
-        <span class="card-title">Flashcards</span>
-        <span class="card-desc">Herhaal zwakke topics</span>
+        <span class="card-title">Zwakke topics</span>
+        <span class="card-desc">Herhaal wat je nog niet kent</span>
       </button>
     </div>
     <div class="badge-shelf">
@@ -43,7 +48,7 @@
       <div id="badge-shelf-list" class="badge-list"></div>
     </div>
     <div class="overall-stats" id="home-stats"></div>
-    <div class="version-tag" id="version-tag">v5 — 5 apr 2026</div>
+    <div class="version-label">v1.0</div>
   </div>
 
   <!-- QUIZ CONFIG SCREEN -->
@@ -77,6 +82,7 @@
     <div class="quiz-leerdoel-badge" id="quiz-leerdoel-badge"></div>
     <div class="question-card" id="question-card">
       <div class="question-text" id="question-text"></div>
+      <div id="question-image-container"></div>
       <div class="question-type-badge" id="question-type-badge"></div>
       <div id="options-container"></div>
     </div>

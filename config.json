@@ -1,0 +1,153 @@
+{
+  "appId": "geschiedenis-h4",
+  "title": "Geschiedenis H4",
+  "shortName": "Gesch H4",
+  "subtitle": "Tijd van pruiken en revoluties",
+  "description": "Quiz app voor Geschiedenis Hoofdstuk 4 - Tijd van pruiken en revoluties",
+  "studentName": "Willem",
+  "greeting": "Hoi Willem! Klaar om te stampen?",
+  "lang": "nl",
+  "storageKey": "gesch-h4-progress",
+  "theme": {
+    "primary": "#7c3aed",
+    "light": "#a78bfa",
+    "dark": "#5b21b6",
+    "bg": "#f5f3ff",
+    "bgAccent": "#ede9fe"
+  },
+  "manifest": {
+    "name": "Geschiedenis H4 - Quiz",
+    "short_name": "Gesch H4",
+    "description": "Quiz app voor Geschiedenis Hoofdstuk 4 - Tijd van pruiken en revoluties",
+    "theme_color": "#7c3aed",
+    "background_color": "#f5f3ff"
+  },
+  "themeColorMeta": "#7c3aed",
+  "appleMobileWebAppTitle": "Gesch H4",
+  "gridColumns": "1fr 1fr 1fr",
+  "dataFiles": ["data/vragen.json"],
+  "badges": {
+    "1": { "name": "Pruikenmeester", "emoji": "👑" },
+    "2": { "name": "Standenkenner", "emoji": "⚜️" },
+    "3": { "name": "Verlichtingsdenker", "emoji": "💡" },
+    "4": { "name": "Filosoof", "emoji": "📜" },
+    "5": { "name": "Revolutionair", "emoji": "🏴" },
+    "6": { "name": "Politiek Strateeg", "emoji": "⚖️" },
+    "7": { "name": "Geschiedenisheld", "emoji": "🎭" },
+    "8": { "name": "Tijdreiziger", "emoji": "⌛" },
+    "9": { "name": "Woordenmeester", "emoji": "📖" }
+  },
+  "correctMsgs": [
+    "Lodewijk XIV zou jaloers zijn op jouw kennis!",
+    "Je bent slimmer dan de hele derde stand bij elkaar!",
+    "Voltaire zou je een applausje geven!",
+    "Dat wist zelfs Montesquieu niet zo snel!",
+    "Je hebt de Verlichting in je hoofd!",
+    "Napoleon zou je tot generaal benoemen!",
+    "Beter dan een pruik op je hoofd: kennis erin!",
+    "De Encyclopedie had jou als bron moeten gebruiken!",
+    "Robespierre is onder de indruk!",
+    "Je maakt de derde stand trots!",
+    "Historicus in wording!",
+    "Dat was scherper dan de guillotine!",
+    "Je scoort hoger dan de belasting op brood!",
+    "Eise Eisinga zou je highfiven!",
+    "Je bent een wandelende geschiedenisles!",
+    "Zelfs de adel buigt voor jouw kennis!",
+    "Je had zo in de Staten-Generaal gekund!",
+    "De Bastille kan jou niet tegenhouden!",
+    "Top! Je bent op weg naar een 10!",
+    "Pruiken af voor jou!",
+    "Je brein is verlicht!",
+    "Daar kan geen revolutie tegenop!",
+    "Je hebt meer kennis dan de hele eerste stand!",
+    "Knaller! Ga zo door!",
+    "Je loopt voor op de tijdlijn!",
+    "Als een echte filosoof!",
+    "Diderot zou je in de Encyclopedie zetten!",
+    "Je weet meer dan de gemiddelde regent!",
+    "Absolute power move!",
+    "Je bent de Locke van deze quiz!",
+    "Zo scherp als een verlichte geest!",
+    "Beter dan een buitenhuis aan de Vecht!",
+    "Je maakt geschiedenis!",
+    "Wow, dat was razendsnel!",
+    "Geen twijfel mogelijk, jij kent je stof!"
+  ],
+  "wrongMsgs": [
+    "Zelfs Robespierre maakte fouten... oh wacht.",
+    "Die had Voltaire ook niet geweten, denk ik.",
+    "Niet getreurd, zelfs Napoleon verloor bij Waterloo!",
+    "Oeps! Maar je leert ervan, net als de revolutionairen.",
+    "Lodewijk XVI wist het ook niet altijd...",
+    "Geen stress, de Verlichting begon ook met twijfel!",
+    "Foutje! Maar hey, oefening baart kunst.",
+    "Dat was een struikelpruik!",
+    "De guillotine van het verkeerde antwoord!",
+    "Niet erg, je bent nog steeds slimmer dan een pruik.",
+    "Au! Maar de volgende gaat beter.",
+    "Zelfs de beste historici slaan weleens de plank mis.",
+    "Die kennis komt nog, beloofd!",
+    "Hmm, dat was meer ancien regime dan revolutie.",
+    "Nog eentje oefenen en je hebt het!",
+    "Bijna! Net als de bijna-revolutie van 1787.",
+    "De derde stand had het ook moeilijk, jij komt er wel!",
+    "Dat antwoord had een pruik nodig om het te verbergen.",
+    "Niet opgeven! De revolutie stopte ook niet na dag 1.",
+    "Je leert sneller dan de Staten-Generaal vergaderde!",
+    "Fout, maar je moed is groter dan de Bastille!",
+    "Ach, morgen weet je het wel!",
+    "Dat was een historische misser, maar je komt terug!",
+    "Zelfs Kant moest nadenken, dus geen zorgen.",
+    "Je zit op het verkeerde spoor, maar de trein rijdt door!",
+    "Het goede antwoord was vlakbij, net als de revolutie!",
+    "Oeps! Maar elke fout is een les.",
+    "Die pruik zat even scheef, maar we gaan door!",
+    "Niet het juiste antwoord, maar wel lef!",
+    "De Encyclopedie had ook correcties nodig!",
+    "Foutje bedankt! Lees de uitleg goed.",
+    "Net niet! Maar je komt er dichterbij.",
+    "Dat was een koninklijke blunder!",
+    "Geen paniek, de volgende vraag is jouw revolutie!",
+    "Mis! Maar je bent nog steeds in het spel."
+  ],
+  "resultsMsgs": {
+    "perfect": [
+      "Absoluut briljant! Je bent klaar voor het proefwerk!",
+      "Perfecte score! De geschiedenisleraar gaat steil achterover!"
+    ],
+    "great": [
+      "Uitstekend! Je beheerst de stof als een echte historicus!",
+      "Geweldig resultaat! Nog even de puntjes op de i."
+    ],
+    "good": [
+      "Goed bezig! Nog een paar rondes en je zit op een 10!",
+      "Prima score! Focus op de rode vragen en je bent er bijna."
+    ],
+    "okay": [
+      "Een goede start! Herhaal de zwakke onderwerpen.",
+      "Je bent op weg! Probeer de flashcards voor de moeilijke topics."
+    ],
+    "low": [
+      "Niet getreurd! Rome is ook niet in een dag gebouwd.",
+      "Dit is je startpunt. Gebruik de flashcards en probeer opnieuw!"
+    ]
+  },
+  "confettiColors": ["#7c3aed", "#22c55e", "#f59e0b", "#ef4444", "#3b82f6", "#ec4899"],
+  "uiStrings": {
+    "correct": "Goed!",
+    "wrong": "Helaas, fout!",
+    "next": "Volgende",
+    "seeResults": "Bekijk resultaten",
+    "stop": "Stoppen",
+    "confirmStop": "Wil je de quiz stoppen? Je voortgang wordt opgeslagen.",
+    "confirmReset": "Weet je zeker dat je alle voortgang wilt wissen? Dit kan niet ongedaan worden.",
+    "noProgress": "Begin met een quiz om je voortgang te zien!",
+    "typeLabels": {
+      "multiple_choice": "Meerkeuze",
+      "choose_all_that_apply": "Meerdere antwoorden",
+      "invullen": "Invullen",
+      "volgorde": "Volgorde"
+    }
+  }
+}

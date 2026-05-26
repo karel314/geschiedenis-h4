@@ -1,7 +1,8 @@
-// Geschiedenis H4 - Quiz App
+// Quiz Platform Engine - Config-driven
 'use strict';
 
 // ── State ──
+let CONFIG = null;
 let db = null;
 let allQuestions = [];
 let quizQuestions = [];
@@ -16,128 +17,32 @@ let flashcards = [];
 let flashIndex = 0;
 let flashFlipped = false;
 
-const STORAGE_KEY = 'gesch-h4-progress';
 const LETTERS = 'ABCDEFGHIJ';
 
-// ── Badge definitions ──
-const BADGES = {
-  1: { name: 'Pruikenmeester', emoji: '\u{1F451}' },
-  2: { name: 'Standenkenner', emoji: '\u{269C}\uFE0F' },
-  3: { name: 'Verlichtingsdenker', emoji: '\u{1F4A1}' },
-  4: { name: 'Filosoof', emoji: '\u{1F4DC}' },
-  5: { name: 'Revolutionair', emoji: '\u{1F3F4}' },
-  6: { name: 'Politiek Strateeg', emoji: '\u{2696}\uFE0F' },
-  7: { name: 'Geschiedenisheld', emoji: '\u{1F3AD}' },
-  8: { name: 'Tijdreiziger', emoji: '\u{231B}' },
-  9: { name: 'Woordenmeester', emoji: '\u{1F4D6}' }
-};
-
-// ── Encouragement messages ──
-const CORRECT_MSGS = [
-  'Lodewijk XIV zou jaloers zijn op jouw kennis!',
-  'Je bent slimmer dan de hele derde stand bij elkaar!',
-  'Voltaire zou je een applausje geven!',
-  'Dat wist zelfs Montesquieu niet zo snel!',
-  'Je hebt de Verlichting in je hoofd!',
-  'Napoleon zou je tot generaal benoemen!',
-  'Beter dan een pruik op je hoofd: kennis erin!',
-  'De Encyclopedie had jou als bron moeten gebruiken!',
-  'Robespierre is onder de indruk!',
-  'Je maakt de derde stand trots!',
-  'Historicus in wording!',
-  'Dat was scherper dan de guillotine!',
-  'Je scoort hoger dan de belasting op brood!',
-  'Eise Eisinga zou je highfiven!',
-  'Je bent een wandelende geschiedenisles!',
-  'Zelfs de adel buigt voor jouw kennis!',
-  'Je had zo in de Staten-Generaal gekund!',
-  'De Bastille kan jou niet tegenhouden!',
-  'Top! Je bent op weg naar een 10!',
-  'Pruiken af voor jou!',
-  'Je brein is verlicht!',
-  'Daar kan geen revolutie tegenop!',
-  'Je hebt meer kennis dan de hele eerste stand!',
-  'Knaller! Ga zo door!',
-  'Je loopt voor op de tijdlijn!',
-  'Als een echte filosoof!',
-  'Diderot zou je in de Encyclopedie zetten!',
-  'Je weet meer dan de gemiddelde regent!',
-  'Absolute power move!',
-  'Je bent de Locke van deze quiz!',
-  'Zo scherp als een verlichte geest!',
-  'Beter dan een buitenhuis aan de Vecht!',
-  'Je maakt geschiedenis!',
-  'Wow, dat was razendsnel!',
-  'Geen twijfel mogelijk, jij kent je stof!'
-];
-
-const WRONG_MSGS = [
-  'Zelfs Robespierre maakte fouten... oh wacht.',
-  'Die had Voltaire ook niet geweten, denk ik.',
-  'Niet getreurd, zelfs Napoleon verloor bij Waterloo!',
-  'Oeps! Maar je leert ervan, net als de revolutionairen.',
-  'Lodewijk XVI wist het ook niet altijd...',
-  'Geen stress, de Verlichting begon ook met twijfel!',
-  'Foutje! Maar hey, oefening baart kunst.',
-  'Dat was een struikelpruik!',
-  'De guillotine van het verkeerde antwoord!',
-  'Niet erg, je bent nog steeds slimmer dan een pruik.',
-  'Au! Maar de volgende gaat beter.',
-  'Zelfs de beste historici slaan weleens de plank mis.',
-  'Die kennis komt nog, beloofd!',
-  'Hmm, dat was meer ancien regime dan revolutie.',
-  'Nog eentje oefenen en je hebt het!',
-  'Bijna! Net als de bijna-revolutie van 1787.',
-  'De derde stand had het ook moeilijk, jij komt er wel!',
-  'Dat antwoord had een pruik nodig om het te verbergen.',
-  'Niet opgeven! De revolutie stopte ook niet na dag 1.',
-  'Je leert sneller dan de Staten-Generaal vergaderde!',
-  'Fout, maar je moed is groter dan de Bastille!',
-  'Ach, morgen weet je het wel!',
-  'Dat was een historische misser, maar je komt terug!',
-  'Zelfs Kant moest nadenken, dus geen zorgen.',
-  'Je zit op het verkeerde spoor, maar de trein rijdt door!',
-  'Het goede antwoord was vlakbij, net als de revolutie!',
-  'Oeps! Maar elke fout is een les.',
-  'Die pruik zat even scheef, maar we gaan door!',
-  'Niet het juiste antwoord, maar wel lef!',
-  'De Encyclopedie had ook correcties nodig!',
-  'Foutje bedankt! Lees de uitleg goed.',
-  'Net niet! Maar je komt er dichterbij.',
-  'Dat was een koninklijke blunder!',
-  'Geen paniek, de volgende vraag is jouw revolutie!',
-  'Mis! Maar je bent nog steeds in het spel.'
-];
-
-const RESULTS_MSGS = {
-  perfect: [
-    'Absoluut briljant! Je bent klaar voor het proefwerk!',
-    'Perfecte score! De geschiedenisleraar gaat steil achterover!'
-  ],
-  great: [
-    'Uitstekend! Je beheerst de stof als een echte historicus!',
-    'Geweldig resultaat! Nog even de puntjes op de i.'
-  ],
-  good: [
-    'Goed bezig! Nog een paar rondes en je zit op een 10!',
-    'Prima score! Focus op de rode vragen en je bent er bijna.'
-  ],
-  okay: [
-    'Een goede start! Herhaal de zwakke onderwerpen.',
-    'Je bent op weg! Probeer de flashcards voor de moeilijke topics.'
-  ],
-  low: [
-    'Niet getreurd! Rome is ook niet in een dag gebouwd.',
-    'Dit is je startpunt. Gebruik de flashcards en probeer opnieuw!'
-  ]
-};
-
 // ── Init ──
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const resp = await fetch('config.json');
+    CONFIG = await resp.json();
+    applyTheme(CONFIG.theme);
+    await init();
+  } catch (e) {
+    console.error('Failed to load config:', e);
+  }
+});
+
+function applyTheme(theme) {
+  const r = document.documentElement.style;
+  r.setProperty('--purple', theme.primary);
+  r.setProperty('--purple-light', theme.light);
+  r.setProperty('--purple-dark', theme.dark);
+  r.setProperty('--purple-bg', theme.bg);
+}
 
 async function init() {
   try {
-    const resp = await fetch('data/vragen.json');
+    const dataFile = (CONFIG.dataFiles && CONFIG.dataFiles[0]) || 'data/vragen.json';
+    const resp = await fetch(dataFile);
     db = await resp.json();
     flattenQuestions();
     setupConfigScreen();
@@ -149,7 +54,6 @@ async function init() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
-  // Count selector
   document.querySelectorAll('#count-selector .btn-option').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('#count-selector .btn-option').forEach(b => b.classList.remove('selected'));
@@ -179,7 +83,7 @@ function flattenQuestions() {
 // ── Progress helpers ──
 function getProgress() {
   try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultProgress();
+    return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || defaultProgress();
   } catch { return defaultProgress(); }
 }
 
@@ -188,12 +92,12 @@ function defaultProgress() {
 }
 
 function saveProgress(p) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+  localStorage.setItem(CONFIG.storageKey, JSON.stringify(p));
 }
 
 function resetProgress() {
-  if (!confirm('Weet je zeker dat je alle voortgang wilt wissen? Dit kan niet ongedaan worden.')) return;
-  localStorage.removeItem(STORAGE_KEY);
+  if (!confirm(CONFIG.uiStrings.confirmReset)) return;
+  localStorage.removeItem(CONFIG.storageKey);
   updateBadgeShelf();
   updateHomeStats();
   renderProgressScreen();
@@ -264,11 +168,9 @@ function startQuiz() {
   selectedLeerdoelen = checked.length > 0 ? checked : db.leerdoelen.map(ld => ld.leerdoel_id);
 
   const pool = allQuestions.filter(q => selectedLeerdoelen.includes(q.leerdoel_id));
-  // Sort by priority (weak first), random tiebreak
   const scored = pool.map(q => ({ q, priority: getQuestionPriority(q.id), rand: Math.random() }));
   scored.sort((a, b) => a.priority - b.priority || a.rand - b.rand);
   quizQuestions = scored.slice(0, selectedCount).map(s => s.q);
-  // Shuffle for variety
   for (let i = quizQuestions.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [quizQuestions[i], quizQuestions[j]] = [quizQuestions[j], quizQuestions[i]];
@@ -283,8 +185,7 @@ function startQuiz() {
 // ── Exit quiz ──
 function exitQuiz() {
   if (answers.length > 0) {
-    if (!confirm('Wil je de quiz stoppen? Je voortgang wordt opgeslagen.')) return;
-    saveQuizProgress();
+    if (!confirm(CONFIG.uiStrings.confirmStop)) return;
   }
   showScreen('home');
 }
@@ -296,19 +197,25 @@ function renderQuestion() {
   const q = quizQuestions[currentIndex];
   const total = quizQuestions.length;
 
-  // Progress bar
   document.getElementById('quiz-progress-text').textContent = `${currentIndex + 1} / ${total}`;
   document.getElementById('quiz-progress-fill').style.width = `${((currentIndex) / total) * 100}%`;
   document.getElementById('quiz-leerdoel-badge').textContent = q.leerdoel_titel;
 
-  // Question
   document.getElementById('question-text').textContent = q.vraag;
 
-  // Type badge
-  const typeLabels = { multiple_choice: 'Meerkeuze', choose_all_that_apply: 'Meerdere antwoorden', invullen: 'Invullen', volgorde: 'Volgorde' };
-  document.getElementById('question-type-badge').textContent = typeLabels[q.type] || q.type;
+  const imgContainer = document.getElementById('question-image-container');
+  imgContainer.innerHTML = '';
+  if (q.afbeelding) {
+    const img = document.createElement('img');
+    img.src = q.afbeelding;
+    img.alt = 'Afbeelding bij de vraag';
+    img.className = 'question-image';
+    imgContainer.appendChild(img);
+  }
 
-  // Render options by type
+  const tl = CONFIG.uiStrings.typeLabels;
+  document.getElementById('question-type-badge').textContent = tl[q.type] || q.type;
+
   const container = document.getElementById('options-container');
   container.innerHTML = '';
 
@@ -317,7 +224,6 @@ function renderQuestion() {
   else if (q.type === 'invullen') renderInvullen(q, container);
   else if (q.type === 'volgorde') renderVolgorde(q, container);
 
-  // Hide feedback
   document.getElementById('feedback-panel').style.display = 'none';
 }
 
@@ -352,7 +258,7 @@ function submitMC(index) {
 function renderCATA(q, container) {
   const hint = document.createElement('div');
   hint.className = 'cata-hint';
-  hint.textContent = 'Selecteer alle juiste antwoorden';
+  hint.textContent = CONFIG.uiStrings.selectAll || 'Selecteer alle juiste antwoorden';
   container.appendChild(hint);
 
   q.opties.forEach((opt, i) => {
@@ -365,7 +271,7 @@ function renderCATA(q, container) {
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-multi';
-  submit.textContent = 'Controleer';
+  submit.textContent = CONFIG.uiStrings.check || 'Controleer';
   submit.addEventListener('click', () => submitCATA());
   container.appendChild(submit);
 }
@@ -411,7 +317,7 @@ function renderInvullen(q, container) {
   const input = document.createElement('input');
   input.type = 'text';
   input.className = 'invul-input';
-  input.placeholder = 'Typ je antwoord...';
+  input.placeholder = CONFIG.uiStrings.typAnswer || 'Typ je antwoord...';
   input.autocomplete = 'off';
   input.autocapitalize = 'off';
 
@@ -430,7 +336,7 @@ function renderInvullen(q, container) {
 }
 
 function normalize(str) {
-  return str.toLowerCase().trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ');
+  return str.toLowerCase().trim().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, ' ');
 }
 
 function levenshtein(a, b) {
@@ -447,9 +353,7 @@ function checkInvullen(userAnswer, correctAnswer) {
   const u = normalize(userAnswer);
   const c = normalize(correctAnswer);
   if (u === c) return true;
-  // For single words, allow Levenshtein 1
   if (!c.includes(' ') && !u.includes(' ')) return levenshtein(u, c) <= 1;
-  // Multi-word: also try without "en"/"of" differences and minor variations
   return false;
 }
 
@@ -468,7 +372,7 @@ function submitInvullen(input) {
   if (!isCorrect) {
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = `Juiste antwoord: ${q.juiste_antwoord}`;
+    correctDiv.textContent = `${CONFIG.uiStrings.correctAnswer || 'Juiste antwoord'}: ${q.juiste_antwoord}`;
     document.getElementById('options-container').appendChild(correctDiv);
   }
 
@@ -477,31 +381,27 @@ function submitInvullen(input) {
 }
 
 // ── Volgorde ──
-function getJuisteVolgorde(q) {
-  return q.juiste_antwoord.split(',').map(s => s.trim())
-    .sort((a, b) => parseInt(a) - parseInt(b))
-    .map(s => q.opties[s.split(':')[1].trim()]);
+function parseVolgordeAntwoord(str) {
+  return str.split(',').map(s => s.trim().split(':')[1].trim());
 }
 
 function renderVolgorde(q, container) {
-  // Shuffle the options
-  volgordeOrder = Object.values(q.opties);
-  // Fisher-Yates shuffle
-  for (let i = volgordeOrder.length - 1; i > 0; i--) {
+  const entries = Object.entries(q.opties).map(([letter, text]) => ({ letter, text }));
+  for (let i = entries.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [volgordeOrder[i], volgordeOrder[j]] = [volgordeOrder[j], volgordeOrder[i]];
+    [entries[i], entries[j]] = [entries[j], entries[i]];
   }
+  volgordeOrder = entries;
   renderVolgordeItems(container);
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-volgorde';
-  submit.textContent = 'Controleer volgorde';
+  submit.textContent = CONFIG.uiStrings.checkOrder || 'Controleer volgorde';
   submit.addEventListener('click', () => submitVolgorde());
   container.appendChild(submit);
 }
 
 function renderVolgordeItems(container) {
-  // Remove existing list if any
   const existing = container.querySelector('.volgorde-list');
   if (existing) existing.remove();
 
@@ -512,7 +412,7 @@ function renderVolgordeItems(container) {
     div.className = 'volgorde-item';
     div.innerHTML = `
       <span class="volgorde-num">${i + 1}</span>
-      <span class="volgorde-text">${item}</span>
+      <span class="volgorde-text">${item.text}</span>
       <span class="volgorde-arrows">
         <button onclick="moveVolgorde(${i}, -1)" ${i === 0 ? 'disabled' : ''}>&uarr;</button>
         <button onclick="moveVolgorde(${i}, 1)" ${i === volgordeOrder.length - 1 ? 'disabled' : ''}>&darr;</button>
@@ -520,7 +420,6 @@ function renderVolgordeItems(container) {
     `;
     list.appendChild(div);
   });
-  // Insert before submit button
   const submitBtn = container.querySelector('.btn-submit-volgorde');
   if (submitBtn) container.insertBefore(list, submitBtn);
   else container.appendChild(list);
@@ -538,23 +437,23 @@ function submitVolgorde() {
   if (answered) return;
   answered = true;
   const q = quizQuestions[currentIndex];
-  const juisteVolgorde = getJuisteVolgorde(q);
-  const isCorrect = volgordeOrder.every((item, i) => item === juisteVolgorde[i]);
+  const correctLetters = parseVolgordeAntwoord(q.juiste_antwoord);
+  const userLetters = volgordeOrder.map(item => item.letter);
+  const isCorrect = userLetters.every((letter, i) => letter === correctLetters[i]);
 
-  // Color items
   const items = document.querySelectorAll('.volgorde-item');
   items.forEach((item, i) => {
-    if (volgordeOrder[i] === juisteVolgorde[i]) item.classList.add('correct-pos');
+    if (userLetters[i] === correctLetters[i]) item.classList.add('correct-pos');
     else item.classList.add('wrong-pos');
     item.querySelectorAll('button').forEach(b => b.disabled = true);
   });
   document.querySelector('.btn-submit-volgorde').style.display = 'none';
 
-  // Show correct order if wrong
   if (!isCorrect) {
+    const correctText = correctLetters.map((letter, i) => `${i + 1}. ${q.opties[letter]}`).join(' → ');
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = 'Juiste volgorde: ' + juisteVolgorde.map((s, i) => `${i + 1}. ${s}`).join(' → ');
+    correctDiv.textContent = (CONFIG.uiStrings.correctOrder || 'Juiste volgorde') + ': ' + correctText;
     correctDiv.style.marginTop = '8px';
     correctDiv.style.fontSize = '0.85rem';
     correctDiv.style.lineHeight = '1.5';
@@ -568,11 +467,9 @@ function submitVolgorde() {
 // ── Record answer & feedback ──
 function recordAnswer(isCorrect, q) {
   answers.push({ question: q, correct: isCorrect });
-  // Save immediately to progress
   const p = getProgress();
   if (!p.questionHistory[q.id]) p.questionHistory[q.id] = [];
   p.questionHistory[q.id].push(isCorrect);
-  // Keep last 5
   if (p.questionHistory[q.id].length > 5) p.questionHistory[q.id] = p.questionHistory[q.id].slice(-5);
   p.totalAnswered++;
   if (isCorrect) p.totalCorrect++;
@@ -584,15 +481,15 @@ function showFeedback(isCorrect, q) {
   panel.style.display = 'block';
 
   const result = document.getElementById('feedback-result');
-  result.textContent = isCorrect ? 'Goed!' : 'Helaas, fout!';
+  result.textContent = isCorrect ? CONFIG.uiStrings.correct : CONFIG.uiStrings.wrong;
   result.className = 'feedback-result ' + (isCorrect ? 'correct' : 'wrong');
 
-  const msgs = isCorrect ? CORRECT_MSGS : WRONG_MSGS;
+  const msgs = isCorrect ? CONFIG.correctMsgs : CONFIG.wrongMsgs;
   document.getElementById('feedback-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
   document.getElementById('feedback-explanation').textContent = q.uitleg;
 
   const btn = document.getElementById('btn-next');
-  btn.textContent = currentIndex < quizQuestions.length - 1 ? 'Volgende' : 'Bekijk resultaten';
+  btn.textContent = currentIndex < quizQuestions.length - 1 ? CONFIG.uiStrings.next : CONFIG.uiStrings.seeResults;
 
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -608,11 +505,6 @@ function nextQuestion() {
   }
 }
 
-// ── Save quiz progress on exit ──
-function saveQuizProgress() {
-  // Already saved per-question in recordAnswer, nothing extra needed
-}
-
 // ── Results ──
 function showResults() {
   showScreen('results');
@@ -620,7 +512,6 @@ function showResults() {
   const correct = answers.filter(a => a.correct).length;
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
 
-  // Score circle animation
   const circumference = 2 * Math.PI * 54;
   const offset = circumference - (pct / 100) * circumference;
   const fg = document.getElementById('score-fg');
@@ -628,7 +519,6 @@ function showResults() {
   fg.style.strokeDashoffset = circumference;
   setTimeout(() => { fg.style.strokeDashoffset = offset; }, 50);
 
-  // Color based on score
   if (pct >= 80) fg.style.stroke = 'var(--green)';
   else if (pct >= 50) fg.style.stroke = 'var(--orange)';
   else fg.style.stroke = 'var(--red)';
@@ -636,16 +526,14 @@ function showResults() {
   document.getElementById('score-text').textContent = pct + '%';
   document.getElementById('results-summary').textContent = `${correct} van ${total} vragen goed`;
 
-  // Encouragement
   let msgKey = 'low';
   if (pct === 100) msgKey = 'perfect';
   else if (pct >= 80) msgKey = 'great';
   else if (pct >= 60) msgKey = 'good';
   else if (pct >= 40) msgKey = 'okay';
-  const msgs = RESULTS_MSGS[msgKey];
+  const msgs = CONFIG.resultsMsgs[msgKey];
   document.getElementById('results-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
 
-  // Per-leerdoel breakdown
   const breakdown = document.getElementById('results-leerdoel-breakdown');
   breakdown.innerHTML = '';
   const leerdoelMap = {};
@@ -667,7 +555,6 @@ function showResults() {
     `;
   }
 
-  // Missed questions
   const missed = document.getElementById('results-missed-list');
   missed.innerHTML = '';
   const wrongAnswers = answers.filter(a => !a.correct);
@@ -680,20 +567,20 @@ function showResults() {
       if (q.type === 'multiple_choice') correctText = q.opties[q.juiste_antwoord];
       else if (q.type === 'choose_all_that_apply') correctText = q.juiste_antwoorden.map(i => q.opties[i]).join(', ');
       else if (q.type === 'invullen') correctText = q.juiste_antwoord;
-      else if (q.type === 'volgorde') correctText = getJuisteVolgorde(q).map((s, i) => `${i + 1}. ${s}`).join(' → ');
+      else if (q.type === 'volgorde') {
+        const letters = parseVolgordeAntwoord(q.juiste_antwoord);
+        correctText = letters.map((l, i) => `${i + 1}. ${q.opties[l]}`).join(' → ');
+      }
       missed.innerHTML += `
         <div class="missed-item">
           <div class="missed-q">${q.vraag}</div>
-          <div class="missed-a">Antwoord: ${correctText}</div>
+          <div class="missed-a">${CONFIG.uiStrings.answer || 'Antwoord'}: ${correctText}</div>
         </div>
       `;
     }
   }
 
-  // Check for new badges
   checkNewBadges();
-
-  // Confetti if good score
   if (pct >= 80) spawnConfetti();
 }
 
@@ -718,7 +605,7 @@ function checkNewBadges() {
     container.style.display = 'block';
     list.innerHTML = '';
     for (const bid of newBadges) {
-      const b = BADGES[bid];
+      const b = CONFIG.badges[bid];
       list.innerHTML += `<div class="new-badge-item"><div class="new-badge-emoji">${b.emoji}</div><div class="new-badge-name">${b.name}</div></div>`;
     }
   } else {
@@ -730,7 +617,7 @@ function updateBadgeShelf() {
   const p = getProgress();
   const shelf = document.getElementById('badge-shelf-list');
   shelf.innerHTML = '';
-  for (const [id, b] of Object.entries(BADGES)) {
+  for (const [id, b] of Object.entries(CONFIG.badges)) {
     const earned = p.badges[id]?.earned;
     shelf.innerHTML += `
       <div class="badge-item ${earned ? 'earned' : 'locked'}" ${earned ? `onclick="showBadgePopup(${id})"` : ''}>
@@ -742,11 +629,11 @@ function updateBadgeShelf() {
 }
 
 function showBadgePopup(id) {
-  const b = BADGES[id];
+  const b = CONFIG.badges[id];
   const p = getProgress();
   document.getElementById('badge-popup-icon').textContent = b.emoji;
   document.getElementById('badge-popup-title').textContent = b.name;
-  document.getElementById('badge-popup-desc').textContent = `Verdiend op ${p.badges[id]?.date || 'onbekend'}`;
+  document.getElementById('badge-popup-desc').textContent = `${CONFIG.uiStrings.earnedOn || 'Verdiend op'} ${p.badges[id]?.date || 'onbekend'}`;
   document.getElementById('badge-overlay').style.display = 'flex';
 }
 
@@ -759,11 +646,11 @@ function updateHomeStats() {
   const p = getProgress();
   const el = document.getElementById('home-stats');
   if (p.totalAnswered === 0) {
-    el.textContent = 'Begin met een quiz om je voortgang te zien!';
+    el.textContent = CONFIG.uiStrings.noProgress;
   } else {
     const pct = Math.round((p.totalCorrect / p.totalAnswered) * 100);
     const badgeCount = Object.values(p.badges).filter(b => b.earned).length;
-    el.textContent = `${p.totalAnswered} vragen beantwoord \u2022 ${pct}% goed \u2022 ${badgeCount}/9 badges`;
+    el.textContent = `${p.totalAnswered} vragen beantwoord • ${pct}% goed • ${badgeCount}/${Object.keys(CONFIG.badges).length} badges`;
   }
 }
 
@@ -771,7 +658,6 @@ function updateHomeStats() {
 function renderProgressScreen() {
   const p = getProgress();
 
-  // Overall
   const overall = document.getElementById('overall-progress');
   if (p.totalAnswered === 0) {
     overall.innerHTML = '<div class="overall-pct">-</div><div class="overall-detail">Nog geen vragen beantwoord</div>';
@@ -783,12 +669,11 @@ function renderProgressScreen() {
     `;
   }
 
-  // Per leerdoel
   const list = document.getElementById('leerdoel-progress-list');
   list.innerHTML = '';
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
-    const badge = BADGES[ld.leerdoel_id];
+    const badge = CONFIG.badges[ld.leerdoel_id];
     const earned = p.badges[ld.leerdoel_id]?.earned;
     const color = m.pct >= 80 ? 'var(--green)' : m.pct >= 50 ? 'var(--orange)' : m.seen > 0 ? 'var(--red)' : 'var(--gray-border)';
 
@@ -811,22 +696,44 @@ function renderProgressScreen() {
 }
 
 // ── Flashcards ──
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function startAllFlashcards() {
+  flashcards = [];
+  for (const ld of db.leerdoelen) {
+    for (const sd of ld.subdoelen) {
+      if (sd.uitleg_tekst) {
+        flashcards.push({ front: sd.subdoel_titel, back: sd.uitleg_tekst });
+      }
+    }
+  }
+  shuffle(flashcards);
+  showFlashcardScreen();
+}
+
 function startFlashcards() {
-  // Build flashcards from weak leerdoelen
   flashcards = [];
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
-    // Show flashcards for leerdoelen that are not yet mastered (<80%) or never seen
     if (m.pct < 80 || m.seen === 0) {
       flashcards.push({
         front: ld.leerdoel_titel,
         back: ld.uitleg_tekst
       });
-      // Also add subdoelen
       for (const sd of ld.subdoelen) {
-        // Find a representative question for the subdoel
-        const questions = allQuestions.filter(q => q.subdoel_id === sd.subdoel_id);
-        if (questions.length > 0) {
+        if (sd.uitleg_tekst) {
+          flashcards.push({
+            front: sd.subdoel_titel,
+            back: sd.uitleg_tekst
+          });
+        } else {
+          const questions = allQuestions.filter(q => q.subdoel_id === sd.subdoel_id);
           const weakQs = questions.filter(q => getQuestionPriority(q.id) < 3);
           if (weakQs.length > 0) {
             flashcards.push({
@@ -839,6 +746,10 @@ function startFlashcards() {
     }
   }
 
+  showFlashcardScreen();
+}
+
+function showFlashcardScreen() {
   showScreen('flashcards');
   if (flashcards.length === 0) {
     document.getElementById('flash-empty').style.display = 'block';
@@ -883,7 +794,7 @@ function prevFlashcard() {
 
 // ── Confetti ──
 function spawnConfetti() {
-  const colors = ['#7c3aed', '#22c55e', '#f59e0b', '#ef4444', '#3b82f6', '#ec4899'];
+  const colors = CONFIG.confettiColors || ['#2563eb', '#60a5fa', '#f59e0b', '#ef4444', '#22c55e', '#ec4899'];
   for (let i = 0; i < 40; i++) {
     const el = document.createElement('div');
     el.className = 'confetti';

@@ -1,9 +1,10 @@
-const CACHE_VERSION = 'gesch-h4-v5';
+const CACHE_VERSION = 'geschiedenis-h4-v1';
 const ASSETS = [
   './',
   './index.html',
   './app.js',
   './style.css',
+  './config.json',
   './manifest.json',
   './data/vragen.json',
   './icons/icon-192.png',
